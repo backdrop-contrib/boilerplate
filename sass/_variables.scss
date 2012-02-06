@@ -1,0 +1,33 @@
+// Widths.
+$first_sidebar_width: 190px;
+$second_sidebar_width: 200px;
+$page_width: 960px;
+
+//Heights
+$navigation_height: 40px;
+$footer_height: 80px;
+
+
+//Backgrounds
+$header_bg: #333;
+$footer_bg: #efefef;
+$sidebar_first_bg: #e7edff;
+$sidebar_second_bg: #ffd075;
+$navigation_bg: #feffa5;
+
+//Fonts
+$main_font: "Helvetica Neue", helvetica, Arial, sans-serif;
+
+//Colors
+$link_color: blue;
+$activelink_color:red;
+
+/*
+@media screen and (max-width : 480px) {
+
+  $page_width:100%;
+  $second_sidebar_width:auto;
+  $first_sidebar_width:auto;
+  $navigation_height:auto;
+}
+*/
