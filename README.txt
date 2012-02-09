@@ -66,21 +66,21 @@ the following :
 	3. sidebars
 	4. footer
 
-This is how the page template is buit in basic, and it works in fluid and fixed layout.
+This is how the page template is buit in boilerplate, and it works in fluid and fixed layout.
 Refers to the notes in layout.css to see how to modify the layout.
 
 __________________________________________________________________________________________
 
-UPDATING BASIC
+UPDATING boilerplate
 
-Once you start using basic, you will massively change it until a point where it has nothing
-to do with basic anymore. Unlike ZEN, Boilerplate is not intended to be use as a base theme for a 
+Once you start using boilerplate, you will massively change it until a point where it has nothing
+to do with boilerplate anymore. Unlike ZEN, Boilerplate is not intended to be use as a base theme for a 
 sub-theme (even though it is possible to do so). Because of this, it is not necessary to
-update your theme when a new version of Boilerplate comes out. Always see Basic as a STARTER, and 
+update your theme when a new version of Boilerplate comes out. Always see boilerplate as a STARTER, and 
 as soon as you start using it, it is not Boilerplate anymore, but your own theme.
 
-If you didn't rename your theme, but you don't want to be notified when basic has a new version
-by the update module, simply delete "project = "boilerplate" in basic.info
+If you didn't rename your theme, but you don't want to be notified when boilerplate has a new version
+by the update module, simply delete "project = "boilerplate" in boilerplate.info
 
 __________________________________________________________________________________________
 

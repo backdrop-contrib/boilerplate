@@ -126,21 +126,21 @@ function boilerplate_breadcrumb($variables) {
   return '';
 }
 
-/* 	
- * 	Converts a string to a suitable html ID attribute.
- * 	
- * 	 http://www.w3.org/TR/html4/struct/global.html#h-7.5.2 specifies what makes a
- * 	 valid ID attribute in HTML. This function:
- * 	
- * 	- Ensure an ID starts with an alpha character by optionally adding an 'n'.
- * 	- Replaces any character except A-Z, numbers, and underscores with dashes.
- * 	- Converts entire string to lowercase.
- * 	
- * 	@param $string
- * 	  The string
- * 	@return
- * 	  The converted string
- */	
+/*   
+ *   Converts a string to a suitable html ID attribute.
+ *   
+ *    http://www.w3.org/TR/html4/struct/global.html#h-7.5.2 specifies what makes a
+ *    valid ID attribute in HTML. This function:
+ *   
+ *   - Ensure an ID starts with an alpha character by optionally adding an 'n'.
+ *   - Replaces any character except A-Z, numbers, and underscores with dashes.
+ *   - Converts entire string to lowercase.
+ *   
+ *   @param $string
+ *     The string
+ *   @return
+ *     The converted string
+ */  
 
 
 function boilerplate_id_safe($string) {
