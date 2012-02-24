@@ -32,12 +32,7 @@ scripts[] = js/libs/modernizr-2.5.0.min.js
 scripts[] = js/script.js
 scripts[] = js/plugins.js
 
-
-stylesheets[all][] = css/default.css
-stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/mobile.css
-stylesheets[print][] = css/print.css
 
 settings[basic_tabs] = 1
 settings[basic_breadcrumb_separator] = »

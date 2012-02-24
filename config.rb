@@ -22,7 +22,6 @@ javascripts_dir = "js"
 #require 'susy'
 
 
-
 ##
 ## You probably don't need to edit anything below this.
 ##

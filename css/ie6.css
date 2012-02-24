@@ -23,35 +23,35 @@ ul.secondary li a .tab {
   display: inline-block;
 }
 
-/* line 24, ../sass/ie6.scss */
+/* line 25, ../sass/ie6.scss */
 ul.primary li a {
   background: url(../images/tabs/tab-left-ie6.png) no-repeat left -38px;
 }
-/* line 26, ../sass/ie6.scss */
+/* line 27, ../sass/ie6.scss */
 ul.primary li a .tab {
   background: url(../images/tabs/tab-right-ie6.png) no-repeat right -38px;
 }
-/* line 29, ../sass/ie6.scss */
+/* line 30, ../sass/ie6.scss */
 ul.primary li a:hover {
   cursor: pointer;
   color: #555555;
   text-decoration: none;
   background-position: left -76px;
 }
-/* line 34, ../sass/ie6.scss */
+/* line 35, ../sass/ie6.scss */
 ul.primary li a:hover .tab {
   background-position: right -76px;
 }
-/* line 40, ../sass/ie6.scss */
+/* line 41, ../sass/ie6.scss */
 ul.primary li .active a, ul.primary li .active a:hover {
   background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0;
 }
-/* line 42, ../sass/ie6.scss */
+/* line 43, ../sass/ie6.scss */
 ul.primary li .active a .tab, ul.primary li .active a:hover .tab {
   background: url(../images/tabs/tab-right-ie6.png) no-repeat right 0;
 }
 
-/* line 53, ../sass/ie6.scss */
+/* line 54, ../sass/ie6.scss */
 ul.secondary li a:hover {
   cursor: pointer;
   color: #555555;
@@ -59,7 +59,7 @@ ul.secondary li a:hover {
 }
 
 /* Drupal admin tables */
-/* line 66, ../sass/ie6.scss */
+/* line 67, ../sass/ie6.scss */
 #content tr.even th,
 #content tr.even td,
 #content tr.odd th,
