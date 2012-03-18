@@ -59,12 +59,12 @@ In /SASS
 - _base.scss => define sass variables and partials to be included in all .scss files
 - _custom.scss => define custom styles for page elements
 - _defaults.scss => establishes general rules and browser resets
+- _ie6.scss => Fiexes to support IE6
+- _ie7.scss => Fiexes to support IE7
 - _layout.scss => define the layout (positioning) of the theme's major elements
 - _mixins.scss => define custom sass functions and mixins for use in other .scss files
 - _mobile.scss => define the way the theme addapts on mobile devices
 - _print.scss => define the way the theme look like when printed
-- ie6.scss => used to debug IE6
-- ie7.scss => used to debug IE7
 - style.scss => assembles all partials into a base css to be loaded on every page
 - tabs.scss => styles for the admin tabs (from ZEN)
 
