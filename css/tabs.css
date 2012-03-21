@@ -5,17 +5,17 @@
    Compare this with default CSS found in the system module's stylesheet (a copy
    of which is in drupal5-reference.css, line 510.)
 */
-/* line 9, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\000039}}
 div.tabs {
   margin: 0 0 5px 0;
 }
 
-/* line 13, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000313}}
 ul.primary, ul.secondary {
   width: 99%;
 }
 
-/* line 17, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000317}}
 ul.primary {
   margin: 0;
   padding: 0 0 0 10px;
@@ -25,24 +25,24 @@ ul.primary {
   line-height: normal;
   background: url(../images/tabs/tab-bar.png) repeat-x left bottom;
 }
-/* line 25, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000325}}
 ul.primary li {
   float: left;
   margin: 0;
   padding: 0;
 }
-/* line 30, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000330}}
 ul.primary li.active a, ul.primary li.active a:hover {
   border-width: 0;
   color: black;
   background-color: transparent;
   background: url(../images/tabs/tab-left.png) no-repeat left 0;
 }
-/* line 35, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000335}}
 ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
   background: url(../images/tabs/tab-right.png) no-repeat right 0;
 }
-/* line 40, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000340}}
 ul.primary li a {
   display: block;
   height: 24px;
@@ -55,17 +55,17 @@ ul.primary li a {
   background-color: transparent;
   background: url(../images/tabs/tab-left.png) no-repeat left -38px;
 }
-/* line 51, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000351}}
 ul.primary li a:hover {
   border-width: 0;
   background-color: transparent;
   background: url(../images/tabs/tab-left.png) no-repeat left -76px;
 }
-/* line 55, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000355}}
 ul.primary li a:hover .tab {
   background: url(../images/tabs/tab-right.png) no-repeat right -76px;
 }
-/* line 59, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000359}}
 ul.primary li a .tab {
   display: block;
   height: 20px;
@@ -76,7 +76,7 @@ ul.primary li a .tab {
   background: url(../images/tabs/tab-right.png) no-repeat right -38px;
 }
 
-/* line 72, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000372}}
 ul.secondary {
   margin: 0;
   padding: 0 0 0 5px;
@@ -85,14 +85,14 @@ ul.secondary {
   white-space: nowrap;
   background: url(../images/tabs/tab-secondary-bg.png) repeat-x left bottom;
 }
-/* line 79, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000379}}
 ul.secondary li {
   float: left;
   margin: 0 5px 0 0;
   padding: 5px 0;
   border-right: none;
 }
-/* line 85, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000385}}
 ul.secondary a {
   display: block;
   height: 24px;
@@ -103,17 +103,17 @@ ul.secondary a {
   color: #777777;
   background: url(../images/tabs/tab-secondary.png) repeat-x left -56px;
 }
-/* line 94, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000394}}
 ul.secondary a .active, ul.secondary a .active:hover {
   border: 1px solid silver;
   color: black;
   background: url(../images/tabs/tab-secondary.png) repeat-x left top;
 }
-/* line 99, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\0000399}}
 ul.secondary a:hover {
   background: url(../images/tabs/tab-secondary.png) repeat-x left bottom;
 }
-/* line 102, ../sass/tabs.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/tabs\.scss}line{font-family:\00003102}}
 ul.secondary a .tab {
   display: block;
   height: 18px;

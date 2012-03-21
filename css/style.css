@@ -1,99 +1,100 @@
-/* line 14, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000314}}
 * {
   margin: 0;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   *behavior: url(../js/boxsizing.htc);
 }
 
-/* line 114, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/compass\.app\/Contents\/Resources\/ruby\/compass_0\.11\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003114}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 25, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000325}}
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
-/* line 31, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000331}}
 audio:not([controls]) {
   display: none;
 }
 
-/* line 35, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000335}}
 [hidden] {
   display: none;
 }
 
-/* line 42, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000342}}
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 48, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000348}}
 html, button, input, select, textarea {
   font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
   color: #222222;
 }
 
-/* line 53, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000353}}
 body {
   margin: 0;
   font: 13px/1.5em "Helvetica Neue", helvetica, Arial, sans-serif;
   letter-spacing: 0.03em;
 }
 
-/* line 66, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000366}}
 ::-moz-selection {
   background: #fe57a1;
   color: white;
   text-shadow: none;
 }
 
-/* line 71, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000371}}
 ::selection {
   background: #fe57a1;
   color: white;
   text-shadow: none;
 }
 
-/* line 80, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000380}}
 a {
   color: blue;
 }
-/* line 84, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000384}}
 a:visited {
   color: blue;
 }
-/* line 87, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000387}}
 a:hover {
   color: red;
 }
-/* line 90, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000390}}
 a:focus {
   color: red;
   outline: thin dotted;
 }
-/* line 94, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\0000394}}
 a:hover, a:active {
   color: red;
   text-decoration: underline;
   outline: 0;
 }
 
-/* line 104, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003104}}
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3em;
   color: black;
 }
 
-/* line 109, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003109}}
 h1 {
   font-size: 2.2em;
   font-weight: 300;
@@ -101,66 +102,66 @@ h1 {
   margin: 0;
 }
 
-/* line 116, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003116}}
 h2 {
   font-size: 1.8em;
   font-weight: 300;
   margin-bottom: 0.75em;
 }
 
-/* line 122, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003122}}
 h3 {
   font-size: 1.4em;
   margin-bottom: 1em;
 }
 
-/* line 127, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003127}}
 h4 {
   font-size: 1.2em;
   margin-bottom: 0.8em;
 }
 
-/* line 132, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003132}}
 h5 {
   font-size: 1.1em;
   font-weight: 600;
   margin-bottom: 0;
 }
 
-/* line 138, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003138}}
 h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 143, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003143}}
 p {
   margin: 0 0 1em 0;
 }
 
-/* line 147, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003147}}
 abbr {
   border-bottom: 1px dotted #666;
   cursor: help;
   white-space: nowrap;
 }
 
-/* line 153, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003153}}
 b, strong {
   font-weight: bold;
 }
 
-/* line 157, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003157}}
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 161, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003161}}
 dfn {
   font-style: italic;
 }
 
-/* line 165, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003165}}
 hr {
   display: block;
   height: 1px;
@@ -170,14 +171,14 @@ hr {
   padding: 0;
 }
 
-/* line 174, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003174}}
 ins {
   background: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 180, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003180}}
 mark {
   background: #ff0;
   color: #000;
@@ -185,14 +186,14 @@ mark {
   font-weight: bold;
 }
 
-/* line 187, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003187}}
 pre, code, kbd, samp, tt {
   font-family: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 193, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003193}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -204,23 +205,23 @@ pre {
   border: 1px solid #aaa;
 }
 
-/* line 204, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003204}}
 q {
   quotes: none;
 }
 
-/* line 208, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003208}}
 q:before, q:after {
   content: "";
   content: none;
 }
 
-/* line 213, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003213}}
 small {
   font-size: 85%;
 }
 
-/* line 217, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003217}}
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -228,28 +229,28 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 224, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003224}}
 sup {
   top: -0.5em;
 }
 
-/* line 228, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003228}}
 sub {
   bottom: -0.25em;
 }
 
-/* line 235, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003235}}
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 2em;
 }
 
-/* line 240, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003240}}
 dd {
   margin: 0 0 0 2em;
 }
 
-/* line 244, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003244}}
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -257,71 +258,71 @@ nav ul, nav ol {
   padding: 0;
 }
 
-/* line 251, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003251}}
 ul {
   list-style-type: disc;
 }
-/* line 253, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003253}}
 ul ul {
   list-style-type: circle;
 }
-/* line 255, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003255}}
 ul ul ul {
   list-style-type: square;
 }
-/* line 257, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003257}}
 ul ul ul ul {
   list-style-type: circle;
 }
 
-/* line 264, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003264}}
 ol {
   list-style-type: decimal;
 }
-/* line 266, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003266}}
 ol ol {
   list-style-type: lower-alpha;
 }
-/* line 268, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003268}}
 ol ol ol {
   list-style-type: decimal;
 }
 
-/* line 277, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003277}}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
 }
 
-/* line 283, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003283}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 290, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003290}}
 figure {
   margin: 0;
 }
 
-/* line 297, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003297}}
 form {
   margin: 0;
 }
 
-/* line 301, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003301}}
 fieldset {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 305, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003305}}
 label {
   cursor: pointer;
 }
 
-/* line 309, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003309}}
 legend {
   border: 0;
   *margin-left: -7px;
@@ -329,7 +330,7 @@ legend {
   white-space: normal;
 }
 
-/* line 316, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003316}}
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
@@ -337,12 +338,12 @@ button, input, select, textarea {
   *vertical-align: middle;
 }
 
-/* line 323, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003323}}
 button, input {
   line-height: normal;
 }
 
-/* line 331, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003331}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -352,12 +353,12 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 337, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003337}}
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 342, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003342}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -366,7 +367,7 @@ input[type="radio"] {
   *height: 13px;
 }
 
-/* line 349, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003349}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -374,56 +375,56 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 357, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003357}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-/* line 362, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003362}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 367, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003367}}
 textarea {
   overflow: auto;
   vertical-align: top;
   resize: vertical;
 }
 
-/* line 377, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003377}}
 input:invalid,
 textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 384, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003384}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 99%;
 }
 
-/* line 390, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003390}}
 td {
   vertical-align: top;
 }
 
-/* line 396, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003396}}
 tr.even td,
 tr.odd td {
   padding: 10px 5px;
 }
 
-/* line 401, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003401}}
 tr.odd {
   background-color: white;
 }
 
-/* line 408, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003408}}
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -431,7 +432,7 @@ tr.odd {
   padding: 0.2em 0;
 }
 
-/* line 432, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003432}}
 .wireframe-mode #header,
 .wireframe-mode #content-top,
 .wireframe-mode #content-top > *,
@@ -449,56 +450,56 @@ tr.odd {
   padding: 2px;
   border: 1px solid #bbbbbb;
 }
-/* line 436, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003436}}
 .wireframe-mode .node {
   border-bottom: 1px solid #bbbbbb;
   margin-bottom: 10px;
 }
-/* line 440, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003440}}
 .wireframe-mode .block {
   margin-bottom: 3px;
 }
-/* line 446, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003446}}
 .wireframe-mode #content-top,
 .wireframe-mode #content-header,
 .wireframe-mode #content-area,
 .wireframe-mode #content-bottom {
   margin: 0 3px 3px;
 }
-/* line 449, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003449}}
 .wireframe-mode #footer {
   margin-top: 3px;
   padding: 2px;
   border: 1px solid #cccccc;
 }
-/* line 456, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003456}}
 .wireframe-mode .with-navigation #content,
 .wireframe-mode .with-navigation .sidebar {
   margin-top: 50px;
 }
-/* line 460, ../sass/_defaults.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_defaults\.scss}line{font-family:\00003460}}
 .wireframe-mode #navigation {
   height: 50px;
 }
 
-/* line 20, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000320}}
 #page {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 25, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000325}}
 body, #page {
   height: 100%;
 }
 
-/* line 29, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000329}}
 #main {
   padding-bottom: 80px;
   position: relative;
 }
 
-/* line 34, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000334}}
 #skip a {
   border: 0;
   clip: rect(0 0 0 0);
@@ -509,7 +510,7 @@ body, #page {
   position: absolute !important;
   width: 1px;
 }
-/* line 50, ../sass/_mixins.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mixins\.scss}line{font-family:\0000350}}
 #skip a:active, #skip a:focus {
   clip: auto;
   height: auto;
@@ -519,7 +520,7 @@ body, #page {
   width: auto;
 }
 
-/* line 42, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000342}}
 #content {
   float: left;
   width: 100%;
@@ -527,17 +528,17 @@ body, #page {
   padding: 0;
 }
 
-/* line 49, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000349}}
 .sidebar {
   float: left;
 }
 
-/* line 53, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000353}}
 #sidebar-second {
   float: right;
 }
 
-/* line 57, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000357}}
 #footer {
   position: absolute;
   bottom: 0px;
@@ -547,7 +548,7 @@ body, #page {
   clear: both;
 }
 
-/* line 73, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000373}}
 #header,
 #footer,
 .mission,
@@ -556,35 +557,35 @@ body, #page {
   clear: both;
 }
 
-/* line 82, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000382}}
 .two-sidebars .center,
 .sidebar-first .center {
   margin-left: 19.792%;
 }
 
-/* line 87, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000387}}
 #sidebar-first {
   width: 19.792%;
   margin-right: -190px;
 }
 
-/* line 94, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000394}}
 .two-sidebars .center,
 .sidebar-second .center {
   margin-right: 200px;
 }
 
-/* line 99, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\0000399}}
 #sidebar-second {
   width: 200px;
 }
 
-/* line 109, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\00003109}}
 .inner {
   padding: 0;
 }
 
-/* line 120, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\00003120}}
 #navigation {
   float: left;
   margin-left: 0;
@@ -594,13 +595,13 @@ body, #page {
   height: 40px;
 }
 
-/* line 132, ../sass/_layout.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_layout\.scss}line{font-family:\00003132}}
 .with-navigation #content,
 .with-navigation .sidebar {
   margin-top: 40px;
 }
 
-/* line 13, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000313}}
 body {
   background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 700, color-stop(0%, #aeaeae), color-stop(100%, #ffffff));
   background-image: -webkit-radial-gradient(50% 50%, #aeaeae 0px, #ffffff 700px);
@@ -610,7 +611,7 @@ body {
   background-image: radial-gradient(50% 50%, #aeaeae 0px, #ffffff 700px);
 }
 
-/* line 17, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000317}}
 #header {
   background: #333333;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aeaeae), color-stop(100%, #ffffff));
@@ -621,7 +622,7 @@ body {
   background-image: linear-gradient(#aeaeae, #ffffff);
 }
 
-/* line 22, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000322}}
 #main {
   background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 300, color-stop(0%, #aeaeae), color-stop(100%, #ffffff));
   background-image: -webkit-radial-gradient(50% 50%, #aeaeae 0px, #ffffff 300px);
@@ -631,7 +632,7 @@ body {
   background-image: radial-gradient(50% 50%, #aeaeae 0px, #ffffff 300px);
 }
 
-/* line 26, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000326}}
 #sidebar-first {
   background: #e7edff;
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #aeaeae), color-stop(100%, #ffffff));
@@ -642,7 +643,7 @@ body {
   background-image: linear-gradient(left, #aeaeae, #ffffff);
 }
 
-/* line 31, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000331}}
 #sidebar-second {
   background: #ffd075;
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #aeaeae));
@@ -653,7 +654,7 @@ body {
   background-image: linear-gradient(left, #ffffff, #aeaeae);
 }
 
-/* line 36, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000336}}
 #navigation {
   background: #feffa5;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aeaeae), color-stop(100%, #ffffff));
@@ -663,20 +664,20 @@ body {
   background-image: -ms-linear-gradient(#aeaeae, #ffffff);
   background-image: linear-gradient(#aeaeae, #ffffff);
 }
-/* line 39, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000339}}
 #navigation ul {
   margin: 0px;
   float: left;
   padding: 0px;
 }
-/* line 44, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000344}}
 #navigation li {
   list-style: none;
   margin: 5px;
   float: left;
 }
 
-/* line 51, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000351}}
 #site-name {
   font-size: 2.2em;
   line-height: 1.3em;
@@ -685,7 +686,7 @@ body {
   margin: 0;
 }
 
-/* line 59, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000359}}
 #footer {
   background: #efefef;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #aeaeae));
@@ -695,21 +696,21 @@ body {
   background-image: -ms-linear-gradient(#ffffff, #aeaeae);
   background-image: linear-gradient(#ffffff, #aeaeae);
 }
-/* line 62, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000362}}
 #footer p {
   margin: 0px;
 }
 
-/* line 68, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000368}}
 div.view div.views-admin-links {
   width: auto;
 }
 
-/* line 73, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000373}}
 div.block {
   position: relative;
 }
-/* line 75, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000375}}
 div.block .edit {
   display: none;
   position: absolute;
@@ -726,30 +727,30 @@ div.block .edit {
   -moz-box-shadow: 0 1px 3px #888888;
   -webkit-box-shadow: -1px 1px 2px #666666;
 }
-/* line 91, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000391}}
 div.block .edit a {
   display: block;
   border: 0;
   padding: 0;
   margin: 0;
 }
-/* line 98, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\0000398}}
 div.block:hover .edit {
   display: block;
 }
 
-/* line 106, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003106}}
 #edit-title {
   font-size: 24px;
   width: 99%;
 }
 
-/* line 111, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003111}}
 #system-themes-form img {
   width: 100px;
 }
 
-/* line 115, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003115}}
 .form-item .description {
   font-style: italic;
   line-height: 1.2em;
@@ -758,12 +759,12 @@ div.block:hover .edit {
   color: #777;
 }
 
-/* line 123, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003123}}
 #edit-delete {
   color: #c00;
 }
 
-/* line 127, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003127}}
 div.messages {
   padding: 9px;
   margin: 1em 0;
@@ -772,28 +773,28 @@ div.messages {
   border: 1px solid #ace;
 }
 
-/* line 135, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003135}}
 div.warning {
   color: #840;
   background: #fe6;
   border-color: #ed5;
 }
 
-/* line 141, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003141}}
 div.error {
   color: white;
   background: #e63;
   border-color: #d52;
 }
 
-/* line 147, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003147}}
 div.status {
   color: #360;
   background: #cf8;
   border-color: #bbee77;
 }
 
-/* line 157, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003157}}
 .ir {
   display: block;
   border: 0;
@@ -805,18 +806,18 @@ div.status {
   direction: ltr;
   *line-height: 0;
 }
-/* line 167, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003167}}
 .ir br {
   display: none;
 }
 
-/* line 172, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003172}}
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 177, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003177}}
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -827,7 +828,7 @@ div.status {
   position: absolute !important;
   width: 1px;
 }
-/* line 179, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003179}}
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -837,50 +838,50 @@ div.status {
   width: auto;
 }
 
-/* line 184, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003184}}
 .invisible {
   visibility: hidden;
 }
 
-/* line 188, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003188}}
 .clearfix {
   *zoom: 1;
 }
-/* line 57, ../sass/_mixins.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mixins\.scss}line{font-family:\0000357}}
 .clearfix:before {
   content: "";
   display: table;
 }
-/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/compass\.app\/Contents\/Resources\/ruby\/compass_0\.11\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 193, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003193}}
 .clearleft, .clearl, .cleft {
   clear: left;
 }
 
-/* line 196, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003196}}
 .clearright, .clearr, .cright {
   clear: right;
 }
 
-/* line 200, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003200}}
 .clear, .clearboth, .clearall {
   clear: both;
 }
 
-/* line 205, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003205}}
 .floatleft, .fleft, .floatl {
   display: inline;
   float: left;
   margin: 0 10px 5px 0;
 }
 
-/* line 209, ../sass/_custom.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_custom\.scss}line{font-family:\00003209}}
 .floatright, .fright, .floatr {
   display: inline;
   float: right;
@@ -888,7 +889,7 @@ div.status {
 }
 
 @media screen and (max-width : 480px) {
-  /* line 13, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000313}}
   html, body {
     margin: 0;
     padding: 0;
@@ -896,13 +897,13 @@ div.status {
     padding: 0px;
   }
 
-  /* line 20, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000320}}
   #page {
     width: 100%;
     margin: 40px 0px 0px 0px;
   }
 
-  /* line 25, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000325}}
   .sidebar, #sidebar-first, #sidebar-second {
     float: none;
     clear: both;
@@ -911,12 +912,12 @@ div.status {
     padding: 5px;
   }
 
-  /* line 33, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000333}}
   .with-navigation #content {
     margin-top: 0px;
   }
 
-  /* line 37, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000337}}
   #navigation {
     clear: both;
     padding: 5px;
@@ -924,25 +925,25 @@ div.status {
     top: 0px;
   }
 
-  /* line 44, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000344}}
   #footer {
     position: relative;
     width: 100%;
   }
 
-  /* line 49, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000349}}
   #main {
     padding-bottom: 0px;
     position: static;
   }
 
-  /* line 54, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000354}}
   #content #content-inner.center {
     margin: 0px;
     padding: 5px;
   }
 
-  /* line 59, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000359}}
   body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -953,25 +954,25 @@ div.status {
     -webkit-text-size-adjust: none;
   }
 
-  /* line 69, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000369}}
   h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
   }
 
-  /* line 73, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000373}}
   p img {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
   }
 
-  /* line 79, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000379}}
   img {
     border: 0;
     max-width: 100%;
   }
 
-  /* line 84, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000384}}
   table {
     width: auto;
     border-collapse: collapse;
@@ -979,7 +980,7 @@ div.status {
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 95, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000395}}
   html, body {
     margin: 0;
     padding: 0;
@@ -987,12 +988,12 @@ div.status {
     padding: 0px;
   }
 
-  /* line 101, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003101}}
   #page {
     width: 100%;
   }
 
-  /* line 104, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003104}}
   #sidebar-second {
     float: none;
     clear: both;
@@ -1008,38 +1009,38 @@ div.status {
     padding:5px;
   }
   */
-  /* line 118, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003118}}
   #footer {
     position: relative;
     width: 100%;
   }
 
-  /* line 122, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003122}}
   #main {
     padding-bottom: 0px;
   }
 
-  /* line 125, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003125}}
   body {
     background: #fff;
     word-wrap: break-word;
     -webkit-text-size-adjust: none;
   }
 
-  /* line 130, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003130}}
   p img {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
   }
 
-  /* line 135, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003135}}
   img {
     border: 0;
     max-width: 100%;
   }
 
-  /* line 139, ../sass/_mobile.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003139}}
   table {
     width: auto;
     border-collapse: collapse;
@@ -1047,7 +1048,7 @@ div.status {
   }
 }
 @media print {
-  /* line 10, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000310}}
   * {
     background: transparent !important;
     color: black !important;
@@ -1057,45 +1058,45 @@ div.status {
     -ms-filter: none !important;
   }
 
-  /* line 19, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000319}}
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 23, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000323}}
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 27, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000327}}
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 33, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000333}}
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 37, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000337}}
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 42, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000342}}
   thead {
     display: table-header-group;
   }
 
-  /* line 46, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000346}}
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 50, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000350}}
   img {
     max-width: 100% !important;
   }
@@ -1104,18 +1105,18 @@ div.status {
     margin: 0.5cm;
 }
 
-  /* line 58, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000358}}
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 63, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000363}}
   h2, h3 {
     page-break-after: avoid;
   }
 
-  /* line 75, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000375}}
   .sidebar,
   #navigation,
   #header-region,
@@ -1128,12 +1129,12 @@ div.status {
     display: none;
   }
 
-  /* line 79, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000379}}
   #page {
     width: 100%;
   }
 
-  /* line 86, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000386}}
   #content,
   #content #content-inner,
   .content,
@@ -1142,19 +1143,19 @@ div.status {
     width: auto;
   }
 
-  /* line 95, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\0000395}}
   a:hover, a:active, a:link, a:visited {
     color: black;
   }
 
-  /* line 101, ../sass/_print.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_print\.scss}line{font-family:\00003101}}
   #content a:link:after, #content a:visited:after {
     content: " (" attr(href) ") ";
     font-size: 0.8em;
     font-weight: normal;
   }
 }
-/* line 13, ../sass/_ie7.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie7\.scss}line{font-family:\0000313}}
 .lt-ie8 #content tr.even th,
 .lt-ie8 #content tr.even td,
 .lt-ie8 #content tr.odd th,
@@ -1162,7 +1163,7 @@ div.status {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 23, ../sass/_ie7.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie7\.scss}line{font-family:\0000323}}
 .lt-ie8 ul.primary li a:hover,
 .lt-ie8 ul.secondary li a:hover {
   cursor: pointer;
@@ -1170,19 +1171,19 @@ div.status {
   text-decoration: none;
 }
 
-/* line 12, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000312}}
 .lt-ie7 div.admin .left,
 .lt-ie7 div.admin .right {
   width: 46%;
 }
 
-/* line 21, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000321}}
 .lt-ie7 ul.primary,
 .lt-ie7 ul.secondary {
   width: 100%;
   width: auto;
 }
-/* line 25, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000325}}
 .lt-ie7 ul.primary li a,
 .lt-ie7 ul.primary li a .tab,
 .lt-ie7 ul.secondary li a,
@@ -1191,27 +1192,27 @@ div.status {
   display: inline-block;
 }
 
-/* line 33, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000333}}
 .lt-ie7 ul.primary li a {
   background: url(../images/tabs/tab-left-ie6.png) no-repeat left -38px;
 }
-/* line 35, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000335}}
 .lt-ie7 ul.primary li a .tab {
   background: url(../images/tabs/tab-right-ie6.png) no-repeat right -38px;
 }
-/* line 38, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000338}}
 .lt-ie7 ul.primary li a:hover {
   background-position: left -76px;
 }
-/* line 40, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000340}}
 .lt-ie7 ul.primary li a:hover .tab {
   background-position: right -76px;
 }
-/* line 46, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000346}}
 .lt-ie7 ul.primary li.active a, .lt-ie7 ul.primary li.active a:hover {
   background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0;
 }
-/* line 48, ../sass/_ie6.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_ie6\.scss}line{font-family:\0000348}}
 .lt-ie7 ul.primary li.active a .tab, .lt-ie7 ul.primary li.active a:hover .tab {
   background: url(../images/tabs/tab-right-ie6.png) no-repeat right 0;
 }
