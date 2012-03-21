@@ -4,7 +4,7 @@
  * Here we override the default HTML output of drupal.
  * refer to http://drupal.org/node/550722
  */
- 
+
 // Auto-rebuild the theme registry during theme development.
 if (theme_get_setting('clear_registry')) {
   // Rebuild .info data.
@@ -42,7 +42,7 @@ function boilerplate_preprocess_html(&$vars) {
       'name' => 'viewport',
     )
   );
-   
+
   // Add header meta tag for IE to head
   drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
   drupal_add_html_head($meta_viewport, 'meta_viewport');
@@ -62,7 +62,7 @@ function boilerplate_preprocess_page(&$vars, $hook) {
   }
   if (!empty($vars['secondary_menu'])) {
     $vars['classes_array'][] = 'with-subnav';
-  }  
+  }
 }
 
 function boilerplate_preprocess_node(&$vars) {
@@ -88,7 +88,7 @@ function boilerplate_breadcrumb($variables) {
   $show_breadcrumb = theme_get_setting('boilerplate_breadcrumb');
   if ($show_breadcrumb == 'yes' || ($show_breadcrumb == 'admin' && arg(0) == 'admin')) {
 
-  
+
 
     // Optionally get rid of the homepage link.
     $show_breadcrumb_home = theme_get_setting('boilerplate_breadcrumb_home');
@@ -126,21 +126,21 @@ function boilerplate_breadcrumb($variables) {
   return '';
 }
 
-/*   
+/*
  *   Converts a string to a suitable html ID attribute.
- *   
+ *
  *    http://www.w3.org/TR/html4/struct/global.html#h-7.5.2 specifies what makes a
  *    valid ID attribute in HTML. This function:
- *   
+ *
  *   - Ensure an ID starts with an alpha character by optionally adding an 'n'.
  *   - Replaces any character except A-Z, numbers, and underscores with dashes.
  *   - Converts entire string to lowercase.
- *   
+ *
  *   @param $string
  *     The string
  *   @return
  *     The converted string
- */  
+ */
 
 
 function boilerplate_id_safe($string) {
@@ -165,7 +165,7 @@ function boilerplate_id_safe($string) {
  *
  * @ingroup themeable
  */
- 
+
 function boilerplate_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
@@ -200,7 +200,7 @@ function boilerplate_preprocess_menu_local_task(&$variables) {
  *  Duplicate of theme_menu_local_tasks() but adds clearfix to tabs.
  */
 
-function boilerplate_menu_local_tasks(&$variables) {  
+function boilerplate_menu_local_tasks(&$variables) {
   $output = '';
 
   if (!empty($variables['primary'])) {
