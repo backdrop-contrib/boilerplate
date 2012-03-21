@@ -1,0 +1,463 @@
+////////////////////////////////////////////////////////////////////////////////
+// Default Element Styles
+// --------------------
+// This partial establishes general rules and browser resets. Standard HTML 
+// elements (text, lists, tables, forms, etc...) are all defined here. 
+//
+// This is largely addapted from the HTML5 Boilerplate project. Detailed
+// information about Boilerplate CSS can be found at: http://h5bp.com/css
+////////////////////////////////////////////////////////////////////////////////
+
+//
+// Reset box sizing
+//
+* {
+  margin: 0;
+  @include box-sizing(border-box);
+  *behavior: url(../js/boxsizing.htc);
+}
+
+//
+// HTML5 display definitions
+//
+@include reset-html5;
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+//
+// Base
+//
+html {
+  font-size: 100%;                 // Correct text resizing oddly in IE6/7 when body font-size is set using em units
+  -webkit-text-size-adjust: 100%;  // Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+  -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+  font-family: $main_font;
+  color: $main_text_color;
+}
+
+body {
+  margin: 0;
+  // Setting up font size, leading and font family 
+  // http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography
+  font: 13px / 1.5em $main_font;
+  letter-spacing: 0.03em;
+}
+
+
+//
+// Remove text-shadow in selection highlight: h5bp.com/i
+// These selection declarations have to be separate
+//
+::-moz-selection {
+  background: $selection_bg_color;
+  color: $selection_text_color;
+  text-shadow: none;
+}
+::selection {
+  background: $selection_bg_color;
+  color: $selection_text_color;
+  text-shadow: none;
+}
+
+//
+// Links
+//
+a {
+  color: $link_color;
+  &:link {
+  }
+  &:visited {
+    color: $visited_link_color;
+  }
+  &:hover {
+    color: $active_link_color;
+  }
+  &:focus {
+    color: $active_link_color;
+    outline: thin dotted;
+  }
+  &:hover, &:active {
+    color: $active_link_color;
+    text-decoration: underline;
+    outline: 0; // Improve readability when focused and hovered in all browsers: h5bp.com/h
+  }
+}
+
+//
+// Typography
+//
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3em;
+  color: $header_text_color;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 300;
+  padding: 0 0 0.5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.75em;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+pre, code, kbd, samp, tt {
+  font-family: $monospace_font; // Redeclare monospace font family: h5bp.com/j
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+pre { // Improve readability of pre-formatted text in all browsers
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #efefef;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #aaa;
+}
+
+q {
+  quotes: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 85%;
+}
+
+sub, sup { // Position subscript and superscript content without affecting line-height: h5bp.com/k
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+//
+// Lists
+//
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+dd {
+  margin: 0 0 0 2em;
+}
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: disc;
+  ul {
+    list-style-type: circle;
+    ul {
+      list-style-type: square;
+      ul {
+        list-style-type: circle;
+      }
+    }
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  ol {
+    list-style-type: lower-alpha;
+    ol {
+      list-style-type: decimal;
+    }
+  }
+}
+
+//
+// Embedded content
+//
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; // Improve image quality when scaled in IE7: h5bp.com/d
+  vertical-align: middle;          // Remove the gap between images and borders on image containers: h5bp.com/i/440
+}
+
+svg:not(:root) {
+  overflow: hidden; // Correct overflow not hidden in IE9
+}
+
+//
+// Figures
+//
+figure {
+  margin: 0;
+}
+
+//
+// Forms
+//
+form {
+  margin: 0;
+}
+
+fieldset {
+  @include reset-box-model;
+}
+
+label {
+  cursor: pointer;  // Indicate that 'label' will shift focus to the associated form element
+}
+
+legend {
+  border: 0;           // Correct color not inheriting in IE6/7/8/9
+  *margin-left: -7px;  // Correct alignment displayed oddly in IE6/7
+  padding: 0;          // Since we've removed the fieldset border, margin, and padding, we remove the default padding on legend to avoid unwanted horizontal whitespace.
+  white-space: normal; // Allow text to wrap in Firefox 3.6
+}
+
+button, input, select, textarea {
+  font-size: 100%;           // Correct font-size not inheriting in all browsers
+  margin: 0;                 // Remove margins in FF3/4 S5 Chrome
+  vertical-align: baseline;  // Define consistent vertical alignment display in all browsers
+  *vertical-align: middle;
+}
+
+button, input {
+  line-height: normal;  // Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+
+}
+
+button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+  cursor: pointer;             // Display hand cursor for clickable form elements
+  -webkit-appearance: button;  // Allow styling of clickable form elements in iOS
+  *overflow: visible;          // Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+}
+
+button[disabled], input[disabled] {
+  cursor: default; // Re-set default cursor for disabled elements
+}
+
+input[type="checkbox"], 
+input[type="radio"] { // Consistent box sizing and appearance
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, 
+input::-moz-focus-inner {  // Remove inner padding and border in FF3/4: h5bp.com/l
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;      // Remove default vertical scrollbar in IE6/7/8/9
+  vertical-align: top;
+  resize: vertical;    // Allow only vertical resizing
+}
+
+input:valid, textarea:valid { // Colors for form validity
+}
+
+input:invalid, 
+textarea:invalid {
+  background-color: #f0dddd;
+}
+
+//
+// Tables
+//
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 99%;
+}
+
+td {
+  vertical-align: top;
+}
+
+tr.even,
+tr.odd {
+  td {
+    padding: 10px 5px;
+  }
+}
+
+tr.odd {
+  background-color: white;
+}
+
+//
+// Chrome Frame Prompt
+//
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+//
+// Wireframe styles
+//
+.wireframe-mode {
+  #header,
+  #content-top,
+  #content-top>*,
+  #content-header,
+  #content-header>*,
+  #content-area,
+  #content-area>*,
+  #content-bottom,
+  #content-bottom>*,
+  #primary,
+  #secondary,
+  #sidebar-left-inner,
+  #sidebar-right-inner,
+  .block {
+    padding: 2px;
+    border: 1px solid #bbbbbb;
+  }
+  .node {
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 10px;
+  }
+  .block {
+    margin-bottom: 3px;
+  }
+  #content-top,
+  #content-header,
+  #content-area,
+  #content-bottom {
+    margin: 0 3px 3px;
+  }
+  #footer {
+    margin-top: 3px;
+    padding: 2px;
+    border: 1px solid #cccccc;
+  }
+  .with-navigation {
+    #content,
+    .sidebar {
+      margin-top: 50px;
+    }
+  }
+  #navigation {
+    height: 50px
+  }
+}  

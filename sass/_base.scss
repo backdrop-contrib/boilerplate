@@ -1,0 +1,62 @@
+////////////////////////////////////////////////////////////////////////////////
+// "base" partial
+// --------------------
+// To make it easier to use all variables and mixins in any Sass file in this
+// theme, each .scss file has a @import "base" declaration. And this _base.scss
+// file is in charge of importing all the other partials needed for the theme.
+//
+// This base partial is organized in this way:
+// - First we set any shared Sass variables.
+// - Next we import Compass plug-ins (Sass mixin libraries).
+// - Last we import a _mixins.scss partial that includes our custom mixins.
+////////////////////////////////////////////////////////////////////////////////
+
+//
+// Variables
+////////////////////////////////////////
+
+//
+// Widths
+//
+$first_sidebar_width: 190px;
+$second_sidebar_width: 200px;
+$page_width: 960px;
+
+//
+// Heights
+//
+$navigation_height: 40px;
+$footer_height: 80px;
+
+//
+// Backgrounds
+//
+$header_bg: #333;
+$footer_bg: #efefef;
+$sidebar_first_bg: #e7edff;
+$sidebar_second_bg: #ffd075;
+$navigation_bg: #feffa5;
+
+//
+// Fonts
+//
+$main_font: "Helvetica Neue", helvetica, Arial, sans-serif;
+$monospace_font: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+
+//
+// Colors
+//
+$link_color: blue;
+$visited_link_color: $link_color;
+$active_link_color: red;
+$main_text_color: #222;
+$header_text_color: #000;
+$selection_text_color: #fff;
+$selection_bg_color: #fe57a1;
+
+//
+// Partials to be shared with all .scss files.
+////////////////////////////////////////
+@import "compass";                  // See http://compass-style.org
+@import "compass/reset/utilities";
+@import "mixins";                   // Import our custom mixins last.

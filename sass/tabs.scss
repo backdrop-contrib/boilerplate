@@ -8,11 +8,11 @@
 
 div.tabs {
   margin: 0 0 5px 0;
-  }
+}
 
 ul.primary, ul.secondary {
   width: 99%;
-  }
+}
 
 ul.primary {
   margin: 0;
@@ -34,9 +34,9 @@ ul.primary {
         background: url(../images/tabs/tab-left.png) no-repeat left 0;
         .tab {
           background: url(../images/tabs/tab-right.png) no-repeat right 0;
-          }
         }
       }
+    }
     a {
       display: block;
       height: 24px;
@@ -54,8 +54,8 @@ ul.primary {
         background: url(../images/tabs/tab-left.png) no-repeat left -76px;
         .tab {
           background: url(../images/tabs/tab-right.png) no-repeat right -76px;
-          }
         }
+      }
       .tab {
         display: block;
         height: 20px;
@@ -64,10 +64,10 @@ ul.primary {
         border-width: 0;
         line-height: 20px;
         background: url(../images/tabs/tab-right.png) no-repeat right -38px;
-        }
       }
     }
   }
+}
 
 ul.secondary {
   margin: 0;
@@ -81,7 +81,7 @@ ul.secondary {
     margin: 0 5px 0 0;
     padding: 5px 0;
     border-right: none;
-    }
+  }
   a {
     display: block;
     height: 24px;
@@ -95,16 +95,16 @@ ul.secondary {
       border: 1px solid silver;
       color: black;
       background: url(../images/tabs/tab-secondary.png) repeat-x left top;
-      }
+    }
     &:hover {
       background: url(../images/tabs/tab-secondary.png) repeat-x left bottom;
-      }
+    }
     .tab {
       display: block;
       height: 18px;
       margin: 0;
       padding: 3px 8px;
       line-height: 18px;
-      }
     }
   }
+}

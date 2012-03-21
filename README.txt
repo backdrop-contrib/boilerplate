@@ -1,4 +1,8 @@
-Boilerplate was put together by Dan Linn at Metal Toad Media for use internally.  It was good enough he felt he should let others use it, too.  He agreed with the Basic theme (http://drupal.org/project/basic) developers and thought Zen was getting a little hefty.  Using elements from Basic, Boron (Another Metal Toad theme), and the HTML 5 Boilerplate 3.0, this theme was born.
+Boilerplate was put together by Dan Linn at Metal Toad Media for use internally. It was 
+good enough he felt he should let others use it, too. He agreed with the Basic theme 
+(http://drupal.org/project/basic) developers and thought Zen was getting a little hefty. 
+Using elements from Basic, Boron (Another Metal Toad theme), and the 
+HTML 5 Boilerplate 3.0, this theme was born.
 
 __________________________________________________________________________________________
 
@@ -43,13 +47,26 @@ What are the files for ?
 In /CSS
 -------
 
-- default.css => define default classes, browser resets and admin styles
 - ie6 => used to debug IE6
 - ie7 => used to debug IE7
-- layout.css => define the layout of the theme
-- print.css => define the way the theme look like when printed
-- style.css => contains some default font styles. that's where you can add custom css
+- style.css => contains the base css loaded on every page. It is recomended that you use the 
+               included Sass files to edit these styles: http://sass-lang.com/
 - tabs.css => styles for the admin tabs (from ZEN)
+
+In /SASS
+-------
+
+- _base.scss => define sass variables and partials to be included in all .scss files
+- _custom.scss => define custom styles for page elements
+- _defaults.scss => establishes general rules and browser resets
+- _ie6.scss => Fiexes to support IE6
+- _ie7.scss => Fiexes to support IE7
+- _layout.scss => define the layout (positioning) of the theme's major elements
+- _mixins.scss => define custom sass functions and mixins for use in other .scss files
+- _mobile.scss => define the way the theme addapts on mobile devices
+- _print.scss => define the way the theme look like when printed
+- style.scss => assembles all partials into a base css to be loaded on every page
+- tabs.scss => styles for the admin tabs (from ZEN)
 
 __________________________________________________________________________________________
 
@@ -67,7 +84,7 @@ the following :
 	4. footer
 
 This is how the page template is buit in boilerplate, and it works in fluid and fixed layout.
-Refers to the notes in layout.css to see how to modify the layout.
+Refers to the notes in _layout.scss to see how to modify the layout.
 
 __________________________________________________________________________________________
 

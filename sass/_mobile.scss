@@ -1,16 +1,15 @@
-/*
-@media screen and (max-width : 480px) {
+////////////////////////////////////////////////////////////////////////////////
+// Mobile Styles
+// --------------------
+// This partial defines styles to be used when a page is printed. The styles are
+// included in the main style sheet to avoid an unnecessary HTTP connection: 
+// h5bp.com/r
+////////////////////////////////////////////////////////////////////////////////
 
-  $page_width:100%;
-  $second_sidebar_width:auto;
-  $first_sidebar_width:auto;
-  $navigation_height:auto;
-}
-*/
-/* iPhone and smart phone Styling */
+//
+// iPhone and smart phone Styling
+////////////////////////////////////////
 @media screen and (max-width : 480px) {
-  /* CSS Mobile Reset */
-  /* line 8, ../sass/mobile.scss */
   html, body {
     margin: 0;
     padding: 0;
@@ -18,13 +17,11 @@
     padding: 0px;
   }
 
-  /* line 14, ../sass/mobile.scss */
   #page {
     width: 100%;
-    margin: 40px 0px 0px 0px;
+    margin: $navigation_height 0px 0px 0px;
   }
 
-  /* line 18, ../sass/mobile.scss */
   .sidebar, #sidebar-first, #sidebar-second {
     float: none;
     clear: both;
@@ -33,12 +30,10 @@
     padding: 5px;
   }
 
-  /* line 25, ../sass/mobile.scss */
   .with-navigation #content {
     margin-top: 0px;
   }
 
-  /* line 28, ../sass/mobile.scss */
   #navigation {
     clear: both;
     padding: 5px;
@@ -46,27 +41,23 @@
     top: 0px;
   }
 
-  /* line 34, ../sass/mobile.scss */
   #footer {
     position: relative;
     width: 100%;
   }
 
-  /* line 38, ../sass/mobile.scss */
   #main {
     padding-bottom: 0px;
     position: static;
   }
 
-  /* line 42, ../sass/mobile.scss */
   #content #content-inner.center {
     margin: 0px;
     padding: 5px;
   }
 
-  /* line 47, ../sass/mobile.scss */
   body {
-    font-family: Arial,  sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.5;
     font-size: 16px;
     background: #fff;
@@ -75,47 +66,41 @@
     -webkit-text-size-adjust: none;
   }
 
-  /* line 57, ../sass/mobile.scss */
   h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
   }
 
-  /* line 59, ../sass/mobile.scss */
   p img {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
   }
 
-  /* line 61, ../sass/mobile.scss */
   img {
     border: 0;
     max-width: 100%;
   }
 
-  /* line 63, ../sass/mobile.scss */
   table {
     width: auto;
     border-collapse: collapse;
     border-spacing: 0;
   }
 }
-/* Netbook Styling */
-@media screen and (max-width : 800px) {
-  /* line 69, ../sass/mobile.scss */
+
+//
+// Netbook Styling
+////////////////////////////////////////
+@media screen and (max-width: 800px) {
   html, body {
     margin: 0;
     padding: 0;
     border: 0;
     padding: 0px;
   }
-
-  /* line 75, ../sass/mobile.scss */
   #page {
     width: 100%;
   }
-
-  /* line 78, ../sass/mobile.scss */
   #sidebar-second {
     float: none;
     clear: both;
@@ -123,46 +108,34 @@
     margin: 0px;
     padding: 5px;
   }
-
   /*
-    #navigation {
-      clear:both;
-      height:auto;
-      padding:5px;
-    }
+  #navigation {
+    clear:both;
+    height:auto;
+    padding:5px;
+  }
   */
-  /* line 92, ../sass/mobile.scss */
   #footer {
     position: relative;
     width: 100%;
   }
-
-  /* line 96, ../sass/mobile.scss */
   #main {
     padding-bottom: 0px;
   }
-
-  /* line 100, ../sass/mobile.scss */
   body {
     background: #fff;
     word-wrap: break-word;
     -webkit-text-size-adjust: none;
   }
-
-  /* line 107, ../sass/mobile.scss */
   p img {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
   }
-
-  /* line 109, ../sass/mobile.scss */
   img {
     border: 0;
     max-width: 100%;
   }
-
-  /* line 111, ../sass/mobile.scss */
   table {
     width: auto;
     border-collapse: collapse;

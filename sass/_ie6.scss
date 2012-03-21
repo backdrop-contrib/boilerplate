@@ -1,69 +1,54 @@
-/* Yes, we all hate IE6.
+////////////////////////////////////////////////////////////////////////////////
+// IE6 Styling
+// --------------------
+// Yes, we all hate IE6.
+////////////////////////////////////////////////////////////////////////////////
 
-/* Fix the admin page in ie6. */
-div.admin {
+//
+// Fix the admin page in ie6.
+//
+.lt-ie7 div.admin {
   .left,
   .right {
     width: 46%;
-    }
   }
+}
 
-/* Tabs CSS - IE 5 and 6 don't support PNGs with alpha transparency. */
-ul.primary,
-ul.secondary {
+//
+// Tabs CSS - IE 5 and 6 don't support PNGs with alpha transparency.
+//
+.lt-ie7 ul.primary,
+.lt-ie7 ul.secondary {
   width: 100%;
   width: auto;
   li a,
   li a .tab {
     display: inline;
     display: inline-block;
-    }
   }
-ul.primary {
+}
+
+.lt-ie7 ul.primary {
   li {
     a {
       background: url(../images/tabs/tab-left-ie6.png) no-repeat left -38px;
       .tab {
         background: url(../images/tabs/tab-right-ie6.png) no-repeat right -38px;
-        }
-      &:hover { 
-        cursor: pointer;
-        color: #555555;
-        text-decoration: none;
+      }
+      &:hover {
         background-position: left -76px;
         .tab {
           background-position: right -76px;
-          }
         }
       }
-    .active {
+    }
+    &.active {
       a, a:hover {
         background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0;
         .tab {
           background: url(../images/tabs/tab-right-ie6.png) no-repeat right 0;
-          }
         }
       }
     }
   }
-
-ul.secondary {
-  li {
-    a {
-      &:hover {
-        cursor: pointer;
-        color: #555555;
-        text-decoration: none;
-        }
-      }
-    }
-  }
-
-/* Drupal admin tables */
-#content tr.even,
-#content tr.odd {
-  th,
-  td {
-    border-bottom: 1px solid #cccccc;
-    }
-  }
+}
