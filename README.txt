@@ -44,12 +44,13 @@ What are the files for ?
   the theme
 - theme-settings => used to create additional settings in the theme settings page
 
-In /CSS
+In /css/compiled
 -------
 
 - ie6 => used to debug IE6
 - ie7 => used to debug IE7
-- style.css => contains the base css loaded on every page. It is recomended that you use the 
+- ie8 => used to debug IE7
+- style.css => contains the base css loaded on every page. It is recommended that you use the 
                included Sass files to edit these styles: http://sass-lang.com/
 - tabs.css => styles for the admin tabs (from ZEN)
 
@@ -61,6 +62,7 @@ In /SASS
 - _defaults.scss => establishes general rules and browser resets
 - _ie6.scss => Fiexes to support IE6
 - _ie7.scss => Fiexes to support IE7
+- _ie8.scss => Fiexes to support IE8
 - _layout.scss => define the layout (positioning) of the theme's major elements
 - _mixins.scss => define custom sass functions and mixins for use in other .scss files
 - _mobile.scss => define the way the theme addapts on mobile devices
@@ -83,7 +85,7 @@ the following :
 	3. sidebars
 	4. footer
 
-This is how the page template is buit in boilerplate, and it works in fluid and fixed layout.
+This is how the page template is built in boilerplate, and it works in fluid and fixed layout.
 Refers to the notes in _layout.scss to see how to modify the layout.
 
 __________________________________________________________________________________________

@@ -3,11 +3,9 @@
 # Compass, you may safely ignore or delete this file.
 #
 
-
 # Change this to :production when ready to deploy the CSS to the live server.
 environment = :development
 #environment = :production
-
 
 # Location of the theme's resources.
 css_dir = "css/compiled"
@@ -16,11 +14,9 @@ extensions_dir = "sass-extensions"
 images_dir = "images"
 javascripts_dir = "js"
 
-
 # Require any additional compass plugins here.
 #require 'ninesixty'
 #require 'susy'
-
 
 ##
 ## You probably don't need to edit anything below this.
@@ -41,3 +37,7 @@ relative_assets = true
 #   scss may not have changed, since we want the CSS to be compressed and have
 #   the debug info removed.
 sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+
+output_style = :compressed # by Compass.app 
+line_comments = false # by Compass.app 
+sass_options = {:debug_info=>false} # by Compass.app 
