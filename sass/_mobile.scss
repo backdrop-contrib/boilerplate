@@ -86,12 +86,51 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
+  .panel-3col-33 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    .panel-col {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -ms-box-ordinal-group: 1;
+      -o-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+      float:none;
+    }
+    .panel-col-first {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-box-ordinal-group: 2;
+      -o-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+      float:none;
+      .inside {
+        margin: 0 0 1em .5em;
+      }
+    }
+    .panel-col-last {
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      -ms-box-ordinal-group: 3;
+      -o-box-ordinal-group: 3;
+      box-ordinal-group: 3;
+      float:none;
+    }
+  }
+
 }
 
 //
 // Netbook Styling
 ////////////////////////////////////////
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   html, body {
     margin: 0;
     padding: 0;
@@ -140,5 +179,8 @@
     width: auto;
     border-collapse: collapse;
     border-spacing: 0;
+  }
+  .panel-3col-33 .panel-col-last {
+    float:none;
   }
 }

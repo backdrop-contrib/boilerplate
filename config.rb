@@ -10,7 +10,7 @@ environment = :development
 
 
 # Location of the theme's resources.
-css_dir = "css"
+css_dir = "css/compiled"
 sass_dir = "sass"
 extensions_dir = "sass-extensions"
 images_dir = "images"

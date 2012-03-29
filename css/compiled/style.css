@@ -978,9 +978,53 @@ div.status {
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000389}}
+  .panel-3col-33 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000399}}
+  .panel-3col-33 .panel-col {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-box-ordinal-group: 1;
+    -o-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003107}}
+  .panel-3col-33 .panel-col-first {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003114}}
+  .panel-3col-33 .panel-col-first .inside {
+    margin: 0 0 1em .5em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003118}}
+  .panel-3col-33 .panel-col-last {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-box-ordinal-group: 3;
+    -o-box-ordinal-group: 3;
+    box-ordinal-group: 3;
+    float: none;
+  }
 }
-@media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\0000395}}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003134}}
   html, body {
     margin: 0;
     padding: 0;
@@ -988,12 +1032,12 @@ div.status {
     padding: 0px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003140}}
   #page {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003143}}
   #sidebar-second {
     float: none;
     clear: both;
@@ -1009,42 +1053,47 @@ div.status {
     padding:5px;
   }
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003157}}
   #footer {
     position: relative;
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003161}}
   #main {
     padding-bottom: 0px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003164}}
   body {
     background: #fff;
     word-wrap: break-word;
     -webkit-text-size-adjust: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003169}}
   p img {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003174}}
   img {
     border: 0;
     max-width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003178}}
   table {
     width: auto;
     border-collapse: collapse;
     border-spacing: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/danlinn\/Sites\/playground\/drupal\/sites\/all\/themes\/boilerplate\/sass\/_mobile\.scss}line{font-family:\00003183}}
+  .panel-3col-33 .panel-col-last {
+    float: none;
   }
 }
 @media print {

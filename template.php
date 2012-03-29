@@ -17,6 +17,37 @@ if (theme_get_setting('boilerplate_tabs')) {
   drupal_add_css( drupal_get_path('theme', 'boilerplate') .'/css/tabs.css');
 }
 
+
+
+function boilerplate_add_conditional_styles() {
+  // Make a list of base themes and the current theme.
+  $themes = $GLOBALS['base_theme_info'];
+  $themes[] = $GLOBALS['theme_info'];
+  foreach (array_keys($themes) as $key) {
+    $theme_path = dirname($themes[$key]->filename) . '/';
+    if (isset($themes[$key]->info['stylesheets-conditional'])) {
+      foreach (array_keys($themes[$key]->info['stylesheets-conditional']) as $condition) {
+        foreach (array_keys($themes[$key]->info['stylesheets-conditional'][$condition]) as $media) {
+          foreach ($themes[$key]->info['stylesheets-conditional'][$condition][$media] as $stylesheet) {
+            // Add each conditional stylesheet.
+            drupal_add_css(
+              $theme_path . $stylesheet,
+              array(
+                'group' => CSS_THEME,
+                'browsers' => array(
+                  'IE' => $condition,
+                  '!IE' => FALSE,
+                ),
+                'every_page' => TRUE,
+              )
+            );
+          }
+        }
+      }
+    }
+  }
+}
+
 /**
  * Preprocesses the wrapping HTML.
  *
@@ -42,7 +73,10 @@ function boilerplate_preprocess_html(&$vars) {
       'name' => 'viewport',
     )
   );
-
+  //Conditional Style Sheets
+  if (!module_exists('conditional_styles')) {
+    boilerplate_add_conditional_styles();
+  }
   // Add header meta tag for IE to head
   drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
   drupal_add_html_head($meta_viewport, 'meta_viewport');
