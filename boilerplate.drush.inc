@@ -105,7 +105,7 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
 /**
  * Copy a directory recursively.
  */
-function boilerplate_copy($source_dir, $target_dir, $ignore = '/^(\.(\.)?|CVS|\.svn|\.git|\.DS_Store|\.sass-cache|\.drush.inc)$/') {
+function boilerplate_copy($source_dir, $target_dir, $ignore = '/^(\.(\.)?|boilerplate.drush.inc|CVS|\.svn|\.git|\.DS_Store|\.sass-cache)$/') {
   if (!is_dir($source_dir)) {
     drush_die(dt('The directory "!directory" was not found.', array('!directory' => $source_dir)));
   }
