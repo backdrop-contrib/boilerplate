@@ -28,7 +28,7 @@ features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
 
-scripts[] = js/libs/modernizr-2.5.0.min.js
+scripts[] = js/libs/modernizr-2.5.3.min.js
 scripts[] = js/script.js
 scripts[] = js/plugins.js
 

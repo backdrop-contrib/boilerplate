@@ -10,32 +10,38 @@
 // Positioning of major page elements can be found in _layout.scss. 
 ////////////////////////////////////////////////////////////////////////////////
 
+// Remove this selector when you're ready to start theming.
+#header,
+#sidebar-first,
+#sidebar-second,
+#navigation,
+#footer {
+  padding: 40px 10px;
+  border: $border;
+}
+
 body {
-  @include background-image(radial-gradient(50% 50%, #aeaeae 0px, #fff 700px))
+
 }
 
 #header {
   background: $header_bg;
-  @include background-image(linear-gradient(#aeaeae, white));
 }
 
 #main {
-  @include background-image(radial-gradient(50% 50%, #aeaeae 0px, #fff 300px))
+
 }
 
 #sidebar-first {
   background: $sidebar_first_bg;
-  @include background-image(linear-gradient(left, #aeaeae, white));
 }
 
 #sidebar-second {
   background: $sidebar_second_bg;
-  @include background-image(linear-gradient(left, white, #aeaeae));
 }
 
 #navigation {
   background: $navigation_bg;
-  @include background-image(linear-gradient(#aeaeae, white));
   ul {
     margin: 0px;
     float: left;
@@ -58,7 +64,6 @@ body {
 
 #footer {
   background: $footer_bg;
-  @include background-image(linear-gradient(white, #aeaeae));
   p {
     margin:0px;
   }
