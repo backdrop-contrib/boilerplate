@@ -1,7 +1,7 @@
-Boilerplate was put together by Dan Linn at Metal Toad Media for use internally. It was
-good enough he felt he should let others use it, too. He agreed with the Basic theme
-(http://drupal.org/project/basic) developers and thought Zen was getting a little hefty.
-Using elements from Basic, Boron (Another Metal Toad theme), and the
+Boilerplate was put together by Dan Linn at Metal Toad Media for use internally. It was 
+good enough he felt he should let others use it, too. He agreed with the Basic theme 
+(http://drupal.org/project/basic) developers and thought Zen was getting a little hefty. 
+Using elements from Basic, Boron (Another Metal Toad theme), and the 
 HTML 5 Boilerplate 3.0, this theme was born.
 
 __________________________________________________________________________________________
@@ -9,14 +9,14 @@ ________________________________________________________________________________
 Installation
 
 - Download Boilerplate from http://drupal.org/project/boilerplate
-- Unpack the downloaded file and place the Boilerplate folder in your Drupal installation under
+- Unpack the downloaded file and place the Boilerplate folder in your Drupal installation under 
   one of the following locations:
 
     * sites/all/themes
     * sites/default/themes
-    * sites/example.com/themes
+    * sites/example.com/themes 
 
-- Log in as an administrator on your Drupal site and go to
+- Log in as an administrator on your Drupal site and go to 
   Administer > Site building > Themes (admin/build/themes) and make Boilerplate the default theme.
 
 - if you want to change the name of the theme from 'Boilerplate' to another name like 'mytheme',
@@ -28,7 +28,8 @@ follow these steps (to do BEFORE enabling the theme) :
 	- In template.php change each iteration of 'boilerplate' to 'mytheme'
 	- In mytheme.info change each iteration of 'boilerplate' to 'mytheme'
 	- In theme-settings.php change each iteration of 'boilerplate' to 'mytheme'
-  - OR, you can simply use Drush to create a new theme based on Boilerplate.  just type "drush boilerplate <new theme name>" and you're done.
+
+  - OR, you can simply use Drush to create a new theme based on Boilerplate.  Just type "drush boilerplate <new theme name>" and you're done.
 __________________________________________________________________________________________
 
 What are the files for ?
@@ -40,7 +41,7 @@ What are the files for ?
 - comment.tpl.php => template to edit the comments
 - node.tpl.php => template to edit the nodes (in content)
 - page.tpl.php => template to edit the page
-- template.php => used to modify drupal's default behavior before outputting HTML through
+- template.php => used to modify drupal's default behavior before outputting HTML through 
   the theme
 - theme-settings => used to create additional settings in the theme settings page
 
@@ -50,7 +51,7 @@ In /css/compiled
 - ie6 => used to debug IE6
 - ie7 => used to debug IE7
 - ie8 => used to debug IE7
-- style.css => contains the base css loaded on every page. It is recommended that you use the
+- style.css => contains the base css loaded on every page. It is recommended that you use the 
                included Sass files to edit these styles: http://sass-lang.com/
 - tabs.css => styles for the admin tabs (from ZEN)
 
@@ -74,9 +75,9 @@ ________________________________________________________________________________
 
 Changing the Layout
 
-The layout used in Boilerplate is fairly similar to the Holy Grail method. It has been tested on
+The layout used in Boilerplate is fairly similar to the Holy Grail method. It has been tested on 
 all major browser including IE (5>8), Opera, Firefox, Safari, Chrome ...
-The purpose of this method is to have a minimal markup for an ideal display.
+The purpose of this method is to have a minimal markup for an ideal display. 
 For accessibility and search engine optimization, the best order to display a page is ]
 the following :
 
@@ -93,9 +94,9 @@ ________________________________________________________________________________
 UPDATING boilerplate
 
 Once you start using boilerplate, you will massively change it until a point where it has nothing
-to do with boilerplate anymore. Unlike ZEN, Boilerplate is not intended to be use as a base theme for a
+to do with boilerplate anymore. Unlike ZEN, Boilerplate is not intended to be use as a base theme for a 
 sub-theme (even though it is possible to do so). Because of this, it is not necessary to
-update your theme when a new version of Boilerplate comes out. Always see boilerplate as a STARTER, and
+update your theme when a new version of Boilerplate comes out. Always see boilerplate as a STARTER, and 
 as soon as you start using it, it is not Boilerplate anymore, but your own theme.
 
 If you didn't rename your theme, but you don't want to be notified when boilerplate has a new version

@@ -1,6 +1,7 @@
 /* Tabs CSS
    --------
    Adds styles for the primary and secondary tabs.
+  
    Compare this with default CSS found in the system module's stylesheet (a copy
    of which is in drupal5-reference.css, line 510.)
 */
@@ -42,7 +43,7 @@ ul.primary {
       margin: 0;
       padding: 0 0 0 5px;
       border-width: 0;
-      font-weight: bold;
+      font-weigh: bold;
       text-decoration: none;
       color: #777777;
       background-color: transparent;
