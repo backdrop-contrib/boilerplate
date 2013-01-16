@@ -8,12 +8,19 @@
 // Variables
 ////////////////////////////////////////
 
+
 //
 // Widths
 //
 $first_sidebar_width: 190px;
 $second_sidebar_width: 200px;
 $page_width: 800px;
+
+//
+// Breakpoints
+//
+$tablet: $page_width; //This is set to page width by default
+$mobile: 480px;
 
 //
 // Heights

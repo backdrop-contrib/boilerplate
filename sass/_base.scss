@@ -53,7 +53,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3em;
   color: $header_text_color;
-  @media screen and (max-width : 480px) {
+  @include breakpoint($mobile) {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     @include font-size(16);
@@ -230,7 +230,7 @@ ol {
 }
 
 p img {
-  @media screen and (max-width : 800px) {
+  @include breakpoint($tablet) {
     float: left;
     margin: 0 10px 5px 0;
     padding: 0;
@@ -238,13 +238,13 @@ p img {
 }
 
 img {
-  @media screen and (max-width : 800px) {
+  @include breakpoint($tablet) {
     border: 0;
     max-width: 100%;
   }
 }
 table {
-  @media screen and (max-width : 800px) {
+  @include breakpoint($tablet) {
     width: auto;
     border-collapse: collapse;
     border-spacing: 0;

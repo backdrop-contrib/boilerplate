@@ -35,6 +35,14 @@
   padding: ($sizeValue * 1) + px;
   padding: ($sizeValue / 10) + rem;
 }
+// Breakpoint mixin
+@mixin breakpoint($max, $min:'') {
+  @if ($min!='') {
+    @media only screen and (min-width: $min) and (max-width: $max) { @content; }
+  } @else {
+  @media only screen and (max-width: $max) { @content; }
+  }
+}
 
 // Hide element visually, but have it available for screenreaders.
 @mixin element-invisible {
