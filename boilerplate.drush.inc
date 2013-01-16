@@ -68,10 +68,18 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
   $machine_name = preg_replace($search, '', $machine_name);
 
   // Determine the path to the new subtheme by finding the path to boilerplate.
-  $boilerplate_path = drush_locate_root() . '/' . drupal_get_path('theme', 'boilerplate');
-  $newtheme_path = explode('/', $boilerplate_path);
-  array_pop($newtheme_path);
-  $newtheme_path = implode('/', $newtheme_path) . '/' . str_replace('_', '-', $machine_name);
+  system_rebuild_theme_data();
+  $boilerplate_path = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT'). '/'.
+    drupal_get_path('theme', 'boilerplate');
+  $newtheme_path = str_replace('boilerplate',
+                               str_replace('_', '-', $machine_name),
+                               $boilerplate_path);
+
+  // Prefer sites/[host]/themes/custom if it exists
+  $custom = str_replace('/contrib/', '/custom/', $newtheme_path, &$count);
+  if ($count and is_dir(preg_replace('|/[^/]+$|', '', $custom))) {
+    $newtheme_path = $custom;
+  }
 
   // Make a copy with our changes.
   drush_op('boilerplate_copy', $boilerplate_path . '/', $newtheme_path . '/');
