@@ -11,11 +11,17 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 #header,
+#footer {
+  @include pad-size($section_padding);
+}
+#header,
+#footer,
+#navigation,
 #sidebar-first,
 #sidebar-second,
-#footer {
-  padding: 10px;
-  border: $border;
+#content_top,
+#content_bottom {
+  border:$border;
 }
 
 #header {

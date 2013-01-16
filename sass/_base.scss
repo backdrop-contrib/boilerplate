@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width : 480px) {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    @include font-size(16);
     background: #fff;
     color: #000;
     word-wrap: break-word;
@@ -65,36 +65,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.2em;
+  @include font-size(28);
   font-weight: 300;
   padding: 0 0 0.5em;
   margin: 0;
 }
 
 h2 {
-  font-size: 1.8em;
+  @include font-size(24);
   font-weight: 300;
   margin-bottom: 0.75em;
 }
 
 h3 {
-  font-size: 1.4em;
+  @include font-size(20);
   margin-bottom: 1em;
 }
 
 h4 {
-  font-size: 1.2em;
+  @include font-size(18);
   margin-bottom: 0.8em;
 }
 
 h5 {
-  font-size: 1.1em;
+  @include font-size(16);
   font-weight: 600;
   margin-bottom: 0;
 }
 
 h6 {
-  font-size: 1em;
+  @include font-size(13);
   font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ mark {
 
 pre, code, kbd, samp, tt {
   font-family: $monospace_font; // Redeclare monospace font family: h5bp.com/j
-  font-size: 1em;
+  @include font-size(13);
   line-height: 1.5em;
 }
 

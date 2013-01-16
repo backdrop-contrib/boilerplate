@@ -25,7 +25,7 @@
   }
   @media screen and (max-width : 480px) {
     width: 100%;
-    margin: $navigation_height 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -44,18 +44,15 @@ html, body {
     margin: 0;
     padding: 0;
     border: 0;
-    padding: 0px;
   }
   @media screen and (max-width : 480px) {
     margin: 0;
     padding: 0;
     border: 0;
-    padding: 0px;
   }
 }
 
 #main {
-  padding-bottom: $footer_height;
   position: relative;
   @media screen and (max-width : 800px) {
     padding-bottom: 0px;
@@ -70,7 +67,7 @@ html, body {
   float: left;
   width: 100%;
   margin-right: -100%;
-  padding: 0;
+  margin-bottom: $footer_height;
 }
 
 .sidebar {
@@ -84,17 +81,12 @@ html, body {
     clear: both;
     width: auto;
     margin: 0px;
-    padding: 5px;
   }
 }
 
 #footer {
-  position: absolute;
-  bottom: 0px;
   height: $footer_height;
   width: $page_width;
-  float: none;
-  clear: both;
   @media screen and (max-width : 800px) {
     position: relative;
     width: 100%;
@@ -111,13 +103,11 @@ html, body {
     clear: both;
     width: auto;
     margin: 0px;
-    padding: 5px;
   }
 }
 #content #content-inner.center {
   @media screen and (max-width : 480px) {
     margin: 0px;
-    padding: 5px;
   }
 }
 
@@ -159,7 +149,7 @@ html, body {
 }
 
 #sidebar-second {
-  width: $second_sidebar_width;  
+  width: $second_sidebar_width;
   @media screen and (max-width : 480px) {
     margin-right:0;
     width:100%;
@@ -173,41 +163,22 @@ html, body {
 // width of them by just usinbg the INNER div of each column
 //
 .inner {
-  padding: 0;
+  @include pad-size($section_padding);
 }
 
 //
 // Navigation styles 
 // -----------------
-// The navigation is loaded after the content, so we need to make space
-// for it, equal to its height, so if you change the height of the navigation,
-// remember to adapt the margin top of the content and sidebars.
 //
 #navigation {
-  float: left;
   margin-left: 0;
-  margin-right: -100%;
-  padding: 0;
+  @include pad-size($section_padding);
   width: 100%;
-  height: $navigation_height;
   @media screen and (max-width : 480px) {
     clear: both;
-    padding: 5px;
+    @include pad-size($mobile_padding);
     position: absolute;
     top: 0px;
-  }
-}
-
-// Navigation height
-.with-navigation {
-  #content,
-  .sidebar {
-    margin-top: $navigation_height;
-  }
-  #content {
-    @media screen and (max-width : 480px) {
-      margin-top: 0px;
-    }
   }
 }
 

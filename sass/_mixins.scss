@@ -20,6 +20,22 @@
 // Custom Mixins
 ////////////////////////////////////////
 
+
+//
+// REM sizing
+///////////////////////////////////
+@mixin font-size($sizeValue: 1.6, $line: $sizeValue * 1.5){
+  font-size: ($sizeValue * 1) + px;
+  line-height: ($line * 1) + px;
+  font-size: ($sizeValue / 10) + rem;
+  line-height: ($line / 10) + rem;
+}
+
+@mixin pad-size($sizeValue: 1){
+  padding: ($sizeValue * 1) + px;
+  padding: ($sizeValue / 10) + rem;
+}
+
 // Hide element visually, but have it available for screenreaders.
 @mixin element-invisible {
   border: 0;

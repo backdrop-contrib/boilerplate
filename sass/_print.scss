@@ -100,7 +100,7 @@
   #content a { // CSS2 selector to add visible href after links.
     &:link:after, &:visited:after {
       content: " (" attr(href) ") ";
-      font-size: 0.8em;
+      @include font-size(11);
       font-weight: normal;
     }
   }

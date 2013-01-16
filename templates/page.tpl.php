@@ -30,6 +30,17 @@
       </div>
     <?php endif; ?>
   </header> <!-- /header -->
+   <?php if ($main_menu || $secondary_menu || $page['navbar']): ?>
+      <nav id="navigation" class="menu <?php if (!empty($main_menu)) {print "with-primary";} if (!empty($secondary_menu)) {print " with-secondary";} ?>">
+        <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
+        <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>
+        <?php if ($page['navbar']): ?>
+          <div id="navbar" class="clear">
+            <?php print render($page['navbar']); ?>
+          </div>
+        <?php endif; ?>
+      </nav>
+    <?php endif; ?>
   <div id="main" class="clearfix" role="main">
     <div id="content">
       <div id="content-inner" class="inner column center">
@@ -64,12 +75,6 @@
         <?php endif; ?>
       </div>
     </div> <!-- /content-inner /content -->
-    <?php if ($main_menu || $secondary_menu): ?>
-      <nav id="navigation" class="menu <?php if (!empty($main_menu)) {print "with-primary";} if (!empty($secondary_menu)) {print " with-secondary";} ?>">
-        <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
-        <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>
-      </nav>
-    <?php endif; ?>
     <?php if ($page['sidebar_first']): ?>
       <aside id="sidebar-first" class="column sidebar first">
         <div id="sidebar-first-inner" class="inner">
