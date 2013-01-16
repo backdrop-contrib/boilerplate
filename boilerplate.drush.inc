@@ -106,9 +106,14 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
     'version = "1.0"' => '',
     'project = "Boilerplate"' => ''
   );
+
   if(drush_confirm('Will you be using SASS?')) {
     $alterations['css/style.css'] = 'css/compiled/style.css';
+    $cssbase = $newtheme_path . '/css/';
+    unlink($cssbase . 'style.css');
+    unlink($cssbase . 'tabs.css');
   }
+
   if ($description = drush_get_option('description')) {
     $alterations['Metaltoad HTML5/SASS base theme for Drupal 7'] = $description;
   }
