@@ -177,7 +177,9 @@ function boilerplate_menu_link(array $variables) {
   // Adding a class depending on the TITLE of the link (not constant)
   $element['#attributes']['class'][] = boilerplate_id_safe($element['#title']);
   // Adding a class depending on the ID of the link (constant)
-  $element['#attributes']['class'][] = 'mid-' . $element['#original_link']['mlid'];
+  if (isset($element['#original_link']['mlid']) && !empty($element['#original_link']['mlid'])) {
+    $element['#attributes']['class'][] = 'mid-' . $element['#original_link']['mlid'];
+  }
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
