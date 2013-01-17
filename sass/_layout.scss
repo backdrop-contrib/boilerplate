@@ -178,8 +178,6 @@ html, body {
   @include breakpoint($mobile) {
     clear: both;
     @include pad-size($mobile_padding);
-    position: absolute;
-    top: 0px;
   }
 }
 
