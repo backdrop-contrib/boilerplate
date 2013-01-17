@@ -69,12 +69,24 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
 
   // Determine the path to the new subtheme by finding the path to boilerplate.
   system_rebuild_theme_data();
-  $boilerplate_path = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT'). '/'.
-    drupal_get_path('theme', 'boilerplate');
-  $newtheme_path = str_replace('boilerplate',
+  $drupal_root = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT'). '/';
+  $boilerplate_path =  drupal_get_path('theme', 'boilerplate');
+  if (preg_match('/profiles\//', $boilerplate_path)) {
+    $newtheme_path = 'sites/all/themes/custom/';
+    if (file_prepare_directory($newtheme_path)) {
+      $newtheme_path = 'sites/all/themes/custom/'.
+        str_replace('_', '-', $machine_name);
+    }
+    else {
+      $newtheme_path = 'sites/all/themes/'.
+        str_replace('_', '-', $machine_name);
+    }
+  }
+  else {
+    $newtheme_path = str_replace('boilerplate',
                                str_replace('_', '-', $machine_name),
-                               $boilerplate_path);
-
+                               $drupal_root.$boilerplate_path);
+  }
   // Prefer sites/[host]/themes/custom if it exists
   $custom = str_replace('/contrib/', '/custom/', $newtheme_path, &$count);
   if ($count and is_dir(preg_replace('|/[^/]+$|', '', $custom))) {
@@ -94,6 +106,14 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
     'version = "1.0"' => '',
     'project = "Boilerplate"' => ''
   );
+
+  if(drush_confirm('Will you be using SASS?')) {
+    $alterations['css/style.css'] = 'css/compiled/style.css';
+    $cssbase = $newtheme_path . '/css/';
+    unlink($cssbase . 'style.css');
+    unlink($cssbase . 'tabs.css');
+  }
+
   if ($description = drush_get_option('description')) {
     $alterations['Metaltoad HTML5/SASS base theme for Drupal 7'] = $description;
   }
