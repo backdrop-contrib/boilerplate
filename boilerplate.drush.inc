@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_drush_command().
+ * Implements hook_drush_command().
  */
 function boilerplate_drush_command() {
   $items = array();
@@ -32,7 +32,7 @@ function boilerplate_drush_command() {
 }
 
 /**
- * Implementation of hook_drush_help().
+ * Implements hook_drush_help().
  */
 function boilerplate_drush_help($section) {
   switch ($section) {
@@ -44,11 +44,10 @@ function boilerplate_drush_help($section) {
 }
 
 /*
-* Create a customized Boilerplate instance
-* Some of this code is from zen drush integration
+* Create a customized Boilerplate instance.
 */
 function drush_boilerplate($name = NULL, $machine_name = NULL) {
-// Determine the theme name.
+  // Determine the theme name.
   if (!isset($name)) {
     $name = drush_get_option('name');
   }
@@ -62,30 +61,32 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
   }
   $machine_name = str_replace(' ', '_', strtolower($machine_name));
   $search = array(
-    '/[^a-z0-9_]/', // Remove characters not valid in function names.
-    '/^[^a-z]+/',   // Functions must begin with an alpha character.
+    // Remove characters not valid in function names.
+    '/[^a-z0-9_]/',
+    // Functions must begin with an alpha character.
+    '/^[^a-z]+/',
   );
   $machine_name = preg_replace($search, '', $machine_name);
 
   // Determine the path to the new subtheme by finding the path to boilerplate.
   system_rebuild_theme_data();
-  $drupal_root = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT'). '/';
+  $drupal_root = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT') . '/';
   $boilerplate_path =  drupal_get_path('theme', 'boilerplate');
   if (preg_match('/profiles\//', $boilerplate_path)) {
     $newtheme_path = 'sites/all/themes/custom/';
     if (file_prepare_directory($newtheme_path)) {
-      $newtheme_path = 'sites/all/themes/custom/'.
+      $newtheme_path = 'sites/all/themes/custom/' .
         str_replace('_', '-', $machine_name);
     }
     else {
-      $newtheme_path = 'sites/all/themes/'.
+      $newtheme_path = 'sites/all/themes/' .
         str_replace('_', '-', $machine_name);
     }
   }
   else {
     $newtheme_path = str_replace('boilerplate',
                                str_replace('_', '-', $machine_name),
-                               $drupal_root.$boilerplate_path);
+                               $drupal_root . $boilerplate_path);
   }
   // Prefer sites/[host]/themes/custom if it exists
   $custom = str_replace('/contrib/', '/custom/', $newtheme_path, &$count);
@@ -104,10 +105,10 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
   $alterations = array(
     '= Boilerplate' => '= ' . $name,
     'version = "1.0"' => '',
-    'project = "Boilerplate"' => ''
+    'project = "Boilerplate"' => '',
   );
 
-  if(drush_confirm('Will you be using SASS?')) {
+  if (drush_confirm('Will you be using SASS?')) {
     $alterations['css/style.css'] = 'css/compiled/style.css';
     $cssbase = $newtheme_path . '/css/';
     unlink($cssbase . 'style.css');
@@ -119,7 +120,7 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
   }
   drush_op('boilerplate_file_str_replace', $newtheme_info_file, array_keys($alterations), $alterations);
 
-  // Remove the packaging script signature from the end of the info file
+  // Remove the packaging script signature from the end of the info file.
   drush_op('boilerplate_file_preg_replace', $newtheme_info_file, '/\n; Information added by drupal.*\Z/s', '');
 
   // Replace all occurrences of 'Boilerplate' with the machine name of our new theme.
@@ -142,7 +143,7 @@ function boilerplate_copy($source_dir, $target_dir, $ignore = '/^(\.(\.)?|boiler
   }
   $dir = opendir($source_dir);
   @mkdir($target_dir);
-  while($file = readdir($dir)) {
+  while ($file = readdir($dir)) {
     if (!preg_match($ignore, $file)) {
       if (is_dir($source_dir . '/' . $file)) {
         boilerplate_copy($source_dir . '/' . $file, $target_dir . '/' . $file, $ignore);
@@ -164,7 +165,7 @@ function boilerplate_file_str_replace($file_path, $find, $replace) {
   file_put_contents($file_path, $file_contents);
 }
 /**
- * Replace strings in a file (with feeling)
+ * Replace strings in a file (with feeling).
  */
 function boilerplate_file_preg_replace($file_path, $pattern, $replace) {
   $file_contents = file_get_contents($file_path);

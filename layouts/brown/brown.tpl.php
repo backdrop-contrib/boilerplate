@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display brown clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display brown clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id)) ? print "id=\"$css_id\""; ?>>
 
   <div class="brown-container brown-top clearfix">
     <div class="brown-top-region brown-slider panel-panel">
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="brown-container brown-middle clearfix">
     <div class="brown-middle-region brown-column1 panel-panel">
       <div class="brown-middle-region-inner brown-column1-inner panel-panel-inner">
@@ -39,10 +39,10 @@
     <div class="brown-middle-region brown-column3 panel-panel">
       <div class="brown-middle-region-inner brown-column3-inner panel-panel-inner">
         <?php print $content['column3']; ?>
-      </div> 
+      </div>
     </div>
   </div>
-  
+
   <div class="brown-container brown-footer clearfix">
     <div class="brown-footer-region brown-footer-column1 panel-panel">
       <div class="brown-footer-region-inner brown-footer-column1-inner panel-panel-inner">

@@ -10,14 +10,14 @@
  */
 ?>
 
-<div class="panel-display selby clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display selby clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="selby-sidebar selby-column-content-region selby-column selby-container panel-panel">
     <div class="selby-sidebar-inner selby-column-content-region-inner selby-column-inner selby-container-inner panel-panel-inner">
       <?php print $content['sidebar']; ?>
     </div>
   </div>
-  
+
   <div class="selby-content-container selby-container">
     <div class="selby-content-container-inner selby-container-inner">
       <div class="selby-column-content-region selby-content-header clearfix panel-panel">
@@ -25,7 +25,7 @@
           <?php print $content['contentheader']; ?>
         </div>
       </div>
-      
+
       <div class="selby-content-container-column-container clearfix">
         <div class="selby-content-container-column-container-inner">
           <div class="selby-column-content-region selby-content-column1 selby-column panel-panel">
@@ -40,14 +40,14 @@
           </div>
         </div>
       </div><!-- /.selby-content-container-column-container -->
-      
+
       <div class="selby-column-content-region selby-content-footer clearfix panel-panel">
         <div class="selby-column-content-region-inner selby-content-footer-inner panel-panel-inner">
           <?php print $content['contentfooter']; ?>
         </div>
       </div>
-    
+
     </div>
   </div><!-- /.selby-content-container -->
-    
+
 </div><!-- /.selby -->

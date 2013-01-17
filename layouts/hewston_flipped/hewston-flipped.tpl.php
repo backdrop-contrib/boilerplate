@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display hewston-flipped clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display hewston-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="hewston-flipped-container hewston-flipped-top clearfix">
     <div class="hewston-flipped-top-region hewston-flipped-slider-gutter panel-panel">
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="hewston-flipped-container hewston-flipped-middle clearfix">
     <div class="hewston-flipped-middle-region hewston-flipped-column1 panel-panel">
       <div class="hewston-flipped-middle-region-inner hewston-flipped-column1-inner panel-panel-inner">
@@ -42,5 +42,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.hewston-flipped -->

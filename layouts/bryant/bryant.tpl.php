@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display bryant clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display bryant clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="bryant-container bryant-content-container clearfix">
     <div class="bryant-sidebar bryant-content-region panel-panel">
@@ -24,5 +24,5 @@
       </div>
     </div>
   </div>
-    
+
 </div><!-- /.bryant -->

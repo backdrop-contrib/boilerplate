@@ -10,14 +10,14 @@
  */
 ?>
 
-<div class="panel-display geary clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display geary clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="geary-container geary-header clearfix panel-panel">
     <div class="geary-container-inner geary-header-inner panel-panel-inner">
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="geary-container geary-column-content clearfix">
     <div class="geary-column-content-region geary-column1 panel-panel">
       <div class="geary-column-content-region-inner geary-column1-inner panel-panel-inner">
@@ -35,5 +35,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.geary -->

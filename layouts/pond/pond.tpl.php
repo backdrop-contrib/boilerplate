@@ -10,14 +10,14 @@
  */
 ?>
 
-<div class="panel-display pond clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display pond clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="pond-container pond-header clearfix panel-panel">
     <div class="pond-container-inner pond-header-inner panel-panel-inner">
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="pond-container pond-column-content pond-column-content-row1 clearfix">
     <div class="pond-column-content-region pond-column pond-column1 panel-panel">
       <div class="pond-column-content-region-inner pond-column-inner pond-column1-inner panel-panel-inner">
@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="pond-container pond-secondary-column-content pond-column-content-row2 clearfix">
     <div class="pond-secondary-column-content-region pond-column pond-secondary-column1 panel-panel">
       <div class="pond-secondary-column-content-region-inner pond-column-inner pond-secondary-column1-inner panel-panel-inner">
@@ -53,11 +53,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="pond-container pond-footer clearfix panel-panel">
     <div class="pond-container-inner pond-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.pond -->

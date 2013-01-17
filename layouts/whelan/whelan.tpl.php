@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display whelan clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display whelan clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="whelan-container whelan-column-content clearfix">
     <div class="whelan-column-content-region whelan-column1 panel-panel">
@@ -29,5 +29,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.whelan -->

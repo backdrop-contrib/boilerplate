@@ -2,7 +2,7 @@ name = Boilerplate
 description = Metaltoad HTML5/SASS base theme for Drupal 7
 screenshot = images/screenshot.png
 core = "7.x"
-version = "1.0"
+version = "1.x-dev"
 project = "Boilerplate"
 engine = phptemplate
 
@@ -40,10 +40,4 @@ settings[basic_breadcrumb_separator] = »
 settings[wireframe_mode] = 0
 settings[clear_registry] = 0
 
-
-; Information added by drupal.org packaging script on 2012-06-26
-version = "7.x-1.6"
-core = "7.x"
-project = "boilerplate"
-datestamp = "1340726175"
 
