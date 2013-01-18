@@ -1,8 +1,10 @@
 name = Boilerplate
 description = Metaltoad HTML5/SASS base theme for Drupal 7
 screenshot = images/screenshot.png
-engine = phptemplate
 core = 7.x
+version = 1.x-dev
+project = Boilerplate
+engine = phptemplate
 
 regions[page_top] = Page top
 regions[header] = Header
@@ -42,4 +44,10 @@ stylesheets-conditional[lte IE 6][all][]  = css/compiled/ie6.css
 settings[basic_tabs] = 1
 settings[basic_breadcrumb_separator] = »
 settings[wireframe_mode] = 0
+<<<<<<< HEAD
 settings[clear_registry] = 0
+=======
+settings[clear_registry] = 0
+
+
+>>>>>>> 5d1823ed6e29eceebdcca0910da872195f9513ab

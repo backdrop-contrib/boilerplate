@@ -10,21 +10,21 @@
  */
 ?>
 
-<div class="panel-display bartlett clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display bartlett clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id)) ? print "id=\"$css_id\""; ?>>
 
   <div class="bartlett-sidebar bartlett-column-content-region bartlett-column bartlett-container panel-panel">
     <div class="bartlett-sidebar-inner bartlett-column-content-region-inner bartlett-column-inner bartlett-container-inner panel-panel-inner">
       <?php print $content['sidebar']; ?>
     </div>
   </div>
-  
+
   <div class="bartlett-content-container bartlett-container">
     <div class="bartlett-column-content-region bartlett-content-header clearfix panel-panel">
       <div class="bartlett-column-content-region-inner bartlett-content-header-inner panel-panel-inner">
         <?php print $content['contentheader']; ?>
       </div>
     </div>
-  
+
     <div class="bartlett-content-container-column-container clearfix">
       <div class="bartlett-column-content-region bartlett-content-column1 bartlett-column panel-panel">
         <div class="bartlett-column-content-region-inner bartlett-content-column1-inner bartlett-column-inner panel-panel-inner">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div><!-- /.bartlett-content-container-column-container -->
-    
+
   </div><!-- /.bartlett-content-container -->
-    
+
 </div><!-- /.bartlett -->

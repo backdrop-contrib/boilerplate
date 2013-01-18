@@ -14,7 +14,7 @@ if (theme_get_setting('clear_registry')) {
 }
 // Add Zen Tabs styles
 if (theme_get_setting('boilerplate_tabs')) {
-  drupal_add_css( drupal_get_path('theme', 'boilerplate') .'/css/tabs.css');
+  drupal_add_css( drupal_get_path('theme', 'boilerplate') . '/css/tabs.css');
 }
 
 /**
@@ -151,7 +151,7 @@ function boilerplate_id_safe($string) {
   $string = strtolower(preg_replace('/[^a-zA-Z0-9_-]+/', '-', $string));
   // If the first character is not a-z, add 'n' in front.
   if (!ctype_lower($string{0})) { // Don't use ctype_alpha since its locale aware.
-    $string = 'id'. $string;
+    $string = 'id' . $string;
   }
   return $string;
 }

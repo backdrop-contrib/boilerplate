@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display sanderson clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display sanderson clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="sanderson-container sanderson-column-content sanderson-column-content-row1 clearfix">
     <div class="sanderson-column-content-region sanderson-column1 panel-panel">
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="sanderson-container sanderson-secondary-column-content sanderson-column-content-row2 clearfix">
     <div class="sanderson-secondary-column-content-region sanderson-secondary-column1 panel-panel">
       <div class="sanderson-secondary-column-content-region-inner sanderson-secondary-column1-inner panel-panel-inner">
@@ -42,5 +42,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.sanderson -->

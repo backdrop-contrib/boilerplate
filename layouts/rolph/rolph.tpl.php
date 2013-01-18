@@ -10,14 +10,14 @@
  */
 ?>
 
-<div class="panel-display rolph clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-display rolph clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
 
   <div class="rolph-container rolph-header clearfix panel-panel">
     <div class="rolph-container-inner rolph-header-inner panel-panel-inner">
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="rolph-container rolph-quarter-content clearfix">
     <div class="rolph-column-content-region rolph-quarter1 rolph-quarter panel-panel">
       <div class="rolph-column-content-region-inner rolph-quarter1-inner rolph-quarter-inner panel-panel-inner">
@@ -40,11 +40,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="rolph-container rolph-footer clearfix panel-panel">
     <div class="rolph-container-inner rolph-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.rolph -->
