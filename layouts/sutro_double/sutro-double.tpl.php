@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display sutro-double clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display sutro-double clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="sutro-double-container sutro-double-header clearfix panel-panel">
     <div class="sutro-double-container-inner sutro-double-header-inner panel-panel-inner">

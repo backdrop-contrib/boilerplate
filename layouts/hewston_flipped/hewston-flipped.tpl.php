@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display hewston-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display hewston-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="hewston-flipped-container hewston-flipped-top clearfix">
     <div class="hewston-flipped-top-region hewston-flipped-slider-gutter panel-panel">

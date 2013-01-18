@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display brenham-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display brenham-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="brenham-flipped-container brenham-flipped-header clearfix panel-panel">
     <div class="brenham-flipped-container-inner brenham-flipped-header-inner panel-panel-inner">

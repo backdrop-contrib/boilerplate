@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display pond clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display pond clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="pond-container pond-header clearfix panel-panel">
     <div class="pond-container-inner pond-header-inner panel-panel-inner">

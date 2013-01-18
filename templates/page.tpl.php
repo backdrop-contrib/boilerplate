@@ -31,7 +31,7 @@
     <?php endif; ?>
   </header> <!-- /header -->
    <?php if ($main_menu || $secondary_menu || $page['navbar']): ?>
-      <nav id="navigation" class="menu <?php !empty($main_menu) ? print "with-primary"; !empty($secondary_menu) ? print " with-secondary"; ?>">
+      <nav id="navigation" class="menu <?php !empty($main_menu) ? print "with-primary" : ''; !empty($secondary_menu) ? print " with-secondary" : ''; ?>">
         <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
         <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>
         <?php if ($page['navbar']): ?>

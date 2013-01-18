@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display burr-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display burr-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="burr-flipped-container burr-flipped-content-container clearfix">
     <div class="burr-flipped-content burr-flipped-content-region panel-panel">

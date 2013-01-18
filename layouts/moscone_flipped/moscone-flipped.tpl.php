@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display moscone-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display moscone-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="moscone-container moscone-header clearfix panel-panel">
     <div class="moscone-container-inner moscone-header-inner panel-panel-inner">

@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display mccoppin clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display mccoppin clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="mccoppin-container mccoppin-column-content clearfix">
     <div class="mccoppin-column-content-region mccoppin-column1 panel-panel">

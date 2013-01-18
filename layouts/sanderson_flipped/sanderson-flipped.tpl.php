@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display sanderson-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display sanderson-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="sanderson-flipped-container sanderson-flipped-column-content sanderson-flipped-column-content-row1 clearfix">
 

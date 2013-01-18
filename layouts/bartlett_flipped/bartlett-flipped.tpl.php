@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display bartlett-flipped clearfix <?php !empty($class) ? print $class;  ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display bartlett-flipped clearfix <?php !empty($class) ? print $class : '';  ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="bartlett-flipped-content-container bartlett-flipped-container">
     <div class="bartlett-flipped-content-container-inner bartlett-flipped-container-inner">

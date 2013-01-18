@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display harris clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display harris clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="harris-container harris-header clearfix panel-panel">
     <div class="harris-container-inner harris-header-inner panel-panel-inner">

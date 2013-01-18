@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display phelan clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display phelan clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="phelan-container phelan-column-content clearfix">
     <div class="phelan-column-content-region phelan-column1 phelan-column panel-panel">

@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display selby-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display selby-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="selby-flipped-content-container selby-flipped-container">
     <div class="selby-flipped-content-container-inner selby-flipped-container-inner">

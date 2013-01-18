@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display rolph clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display rolph clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="rolph-container rolph-header clearfix panel-panel">
     <div class="rolph-container-inner rolph-header-inner panel-panel-inner">

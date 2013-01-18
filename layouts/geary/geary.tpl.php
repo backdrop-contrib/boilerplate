@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display geary clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display geary clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="geary-container geary-header clearfix panel-panel">
     <div class="geary-container-inner geary-header-inner panel-panel-inner">

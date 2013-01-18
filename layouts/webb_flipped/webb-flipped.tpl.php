@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display webb-flipped clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display webb-flipped clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id) ? print "id=\"$css_id\"" : ''; ?>>
 
   <div class="webb-flipped-container webb-flipped-header clearfix panel-panel">
     <div class="webb-flipped-container-inner webb-flipped-header-inner panel-panel-inner">

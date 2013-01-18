@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="panel-display brown clearfix <?php !empty($class) ? print $class; ?>" <?php !empty($css_id)) ? print "id=\"$css_id\""; ?>>
+<div class="panel-display brown clearfix <?php !empty($class) ? print $class : ''; ?>" <?php !empty($css_id)) ? print "id=\"$css_id\""; ?>>
 
   <div class="brown-container brown-top clearfix">
     <div class="brown-top-region brown-slider panel-panel">
