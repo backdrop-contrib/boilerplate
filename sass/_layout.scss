@@ -175,6 +175,7 @@ html, body {
   margin-left: 0;
   @include pad-size($section_padding);
   width: 100%;
+  @extend .clearfix;
   @include breakpoint($mobile) {
     clear: both;
     @include pad-size($mobile_padding);

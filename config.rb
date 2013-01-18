@@ -37,7 +37,3 @@ relative_assets = true
 #   scss may not have changed, since we want the CSS to be compressed and have
 #   the debug info removed.
 sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
-
-output_style = :compressed # by Compass.app 
-line_comments = false # by Compass.app 
-sass_options = {:debug_info=>false} # by Compass.app 

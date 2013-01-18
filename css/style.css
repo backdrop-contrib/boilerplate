@@ -530,14 +530,14 @@ div.view div.views-admin-links {
   visibility: hidden;
 }
 
-.clearfix {
+.clearfix, #navigation {
   *zoom: 1;
 }
-.clearfix:before {
+.clearfix:before, #navigation:before {
   content: "";
   display: table;
 }
-.clearfix:after {
+.clearfix:after, #navigation:after {
   content: "";
   display: table;
   clear: both;
