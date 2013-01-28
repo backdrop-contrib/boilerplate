@@ -72,26 +72,17 @@ function drush_boilerplate($name = NULL, $machine_name = NULL) {
   system_rebuild_theme_data();
   $drupal_root = drush_get_context('DRUSH_SELECTED_DRUPAL_ROOT') . '/';
   $boilerplate_path =  drupal_get_path('theme', 'boilerplate');
-  if (preg_match('/profiles\//', $boilerplate_path)) {
-    $newtheme_path = 'sites/all/themes/custom/';
-    if (file_prepare_directory($newtheme_path)) {
-      $newtheme_path = 'sites/all/themes/custom/' .
-        str_replace('_', '-', $machine_name);
-    }
-    else {
-      $newtheme_path = 'sites/all/themes/' .
-        str_replace('_', '-', $machine_name);
-    }
+  $newtheme_path = $drupal_root . 'sites/all/themes/custom/';
+  //check to see if sites/all/themes/custom is writeable,
+  //and if so, put the theme there.
+  if (file_prepare_directory($newtheme_path)) {
+    $newtheme_path = $drupal_root . 'sites/all/themes/custom/' .
+      str_replace('_', '-', $machine_name);
   }
+  //and if not, just use sites/all/themes.
   else {
-    $newtheme_path = str_replace('boilerplate',
-                               str_replace('_', '-', $machine_name),
-                               $drupal_root . $boilerplate_path);
-  }
-  // Prefer sites/[host]/themes/custom if it exists
-  $custom = str_replace('/contrib/', '/custom/', $newtheme_path, &$count);
-  if ($count and is_dir(preg_replace('|/[^/]+$|', '', $custom))) {
-    $newtheme_path = $custom;
+    $newtheme_path = $drupal_root . 'sites/all/themes/' .
+      str_replace('_', '-', $machine_name);
   }
 
   // Make a copy with our changes.
