@@ -44,10 +44,4 @@ stylesheets-conditional[lte IE 6][all][]  = css/compiled/ie6.css
 settings[basic_tabs] = 1
 settings[basic_breadcrumb_separator] = »
 settings[wireframe_mode] = 0
-<<<<<<< HEAD
 settings[clear_registry] = 0
-=======
-settings[clear_registry] = 0
-
-
->>>>>>> 5d1823ed6e29eceebdcca0910da872195f9513ab
