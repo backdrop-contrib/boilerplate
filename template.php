@@ -129,33 +129,6 @@ function boilerplate_breadcrumb($variables) {
   return '';
 }
 
-/*
- *   Converts a string to a suitable html ID attribute.
- *
- *    http://www.w3.org/TR/html4/struct/global.html#h-7.5.2 specifies what makes a
- *    valid ID attribute in HTML. This function:
- *
- *   - Ensure an ID starts with an alpha character by optionally adding an 'n'.
- *   - Replaces any character except A-Z, numbers, and underscores with dashes.
- *   - Converts entire string to lowercase.
- *
- *   @param $string
- *     The string
- *   @return
- *     The converted string
- */
-
-
-function boilerplate_id_safe($string) {
-  // Replace with dashes anything that isn't A-Z, numbers, dashes, or underscores.
-  $string = strtolower(preg_replace('/[^a-zA-Z0-9_-]+/', '-', $string));
-  // If the first character is not a-z, add 'n' in front.
-  if (!ctype_lower($string{0})) { // Don't use ctype_alpha since its locale aware.
-    $string = 'id' . $string;
-  }
-  return $string;
-}
-
 /**
  * Adds conditional CSS from the .info file.
  *
@@ -213,7 +186,7 @@ function boilerplate_menu_link(array $variables) {
   }
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   // Adding a class depending on the TITLE of the link (not constant)
-  $element['#attributes']['class'][] = boilerplate_id_safe($element['#title']);
+  $element['#attributes']['class'][] = drupal_html_class($element['#title']);
   // Adding a class depending on the ID of the link (constant)
   if (isset($element['#original_link']['mlid']) && !empty($element['#original_link']['mlid'])) {
     $element['#attributes']['class'][] = 'mid-' . $element['#original_link']['mlid'];
