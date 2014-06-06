@@ -7,6 +7,9 @@
 environment = :development
 #environment = :production
 
+# disabled for drupal.org contib, change this for debugging
+line_comments = false
+
 # Location of the theme's resources.
 css_dir = "css/compiled"
 sass_dir = "sass"
@@ -32,8 +35,8 @@ output_style = (environment == :development) ? :expanded : :compressed
 relative_assets = true
 
 # Pass options to sass.
-# - For development, we turn on the FireSass-compatible debug_info.
+# - For development, turn on the FireSass-compatible debug_info.
 # - For production, we force the CSS to be regenerated even though the source
 #   scss may not have changed, since we want the CSS to be compressed and have
 #   the debug info removed.
-sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+sass_options = (environment == :development) ? {:debug_info => false} : {:always_update => true}
