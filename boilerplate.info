@@ -1,9 +1,9 @@
 name = Boilerplate
-description = Metaltoad HTML5/SASS base theme for Drupal 7
+type = theme
+description = Port of Drupal 7 theme by the same name
+backdrop = 1.x
 screenshot = images/screenshot.png
-core = 7.x
-version = 1.x-dev
-project = Boilerplate
+
 engine = phptemplate
 
 regions[page_top] = Page top
