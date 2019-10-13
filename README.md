@@ -1,7 +1,5 @@
 #Boilerplate
 
-
-
 Boilerplate is a port of the Drupal 7 theme: 
 https://www.drupal.org/project/boilerplate
 
