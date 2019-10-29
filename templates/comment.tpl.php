@@ -1,4 +1,4 @@
-<div class="<?php print $classes . ' ' . $zebra; ?>">
+<div class="<?php print implode(' ', $classes) . ' ' . $zebra; ?>">
   <div class="comment-inner">
     <h3 class="title"><?php print $title ?></h3>
     <?php if ($new) : ?>
