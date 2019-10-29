@@ -1,8 +1,8 @@
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>">
+<article id="node-<?php print $node->nid; ?>" class="<?php print implode(' ', $classes); ?>">
   <div class="node-inner">
     <header>
         <?php if (!$page): ?>
-      <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+      <h2><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
       <?php endif; ?>
   
       <?php print $user_picture; ?>
@@ -32,4 +32,4 @@
     <?php endif; ?>
   </div> <!-- /node-inner -->
 </article> <!-- /node-->
-<?php print render($content['comments']); ?>
+<?php print render($comments['comments']); ?>

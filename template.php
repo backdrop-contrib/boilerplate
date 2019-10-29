@@ -10,11 +10,11 @@ if (theme_get_setting('clear_registry')) {
   // Rebuild .info data.
   system_rebuild_theme_data();
   // Rebuild theme registry.
-  drupal_theme_rebuild();
+  backdrop_theme_rebuild();
 }
 // Add Zen Tabs styles
 if (theme_get_setting('boilerplate_tabs')) {
-  drupal_add_css( drupal_get_path('theme', 'boilerplate') . '/css/tabs.css');
+  backdrop_add_css( backdrop_get_path('theme', 'boilerplate') . '/css/tabs.css');
 }
 
 /**
@@ -47,8 +47,8 @@ function boilerplate_preprocess_html(&$vars) {
   );
 
   // Add header meta tag for IE to head
-  drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
-  drupal_add_html_head($meta_viewport, 'meta_viewport');
+  backdrop_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
+  backdrop_add_html_head($meta_viewport, 'meta_viewport');
 }
 
 function boilerplate_preprocess_page(&$vars, $hook) {
@@ -109,7 +109,7 @@ function boilerplate_breadcrumb($variables) {
           $title = check_plain($item['title']);
         }
         else {
-          $title = drupal_get_title();
+          $title = backdrop_get_title();
         }
         if ($title) {
           $trailing_separator = $breadcrumb_separator;
@@ -182,16 +182,16 @@ function boilerplate_menu_link(array $variables) {
   $sub_menu = '';
 
   if ($element['#below']) {
-    $sub_menu = drupal_render($element['#below']);
+    $sub_menu = backdrop_render($element['#below']);
   }
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   // Adding a class depending on the TITLE of the link (not constant)
-  $element['#attributes']['class'][] = drupal_html_class($element['#title']);
+  $element['#attributes']['class'][] = backdrop_html_class($element['#title']);
   // Adding a class depending on the ID of the link (constant)
   if (isset($element['#original_link']['mlid']) && !empty($element['#original_link']['mlid'])) {
     $element['#attributes']['class'][] = 'mid-' . $element['#original_link']['mlid'];
   }
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+  return '<li' . backdrop_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
 /**
@@ -220,13 +220,13 @@ function boilerplate_menu_local_tasks(&$variables) {
     $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
     $variables['primary']['#prefix'] .= '<ul class="tabs primary clearfix">';
     $variables['primary']['#suffix'] = '</ul>';
-    $output .= drupal_render($variables['primary']);
+    $output .= backdrop_render($variables['primary']);
   }
   if (!empty($variables['secondary'])) {
     $variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
     $variables['secondary']['#prefix'] .= '<ul class="tabs secondary clearfix">';
     $variables['secondary']['#suffix'] = '</ul>';
-    $output .= drupal_render($variables['secondary']);
+    $output .= backdrop_render($variables['secondary']);
   }
 
   return $output;
